@@ -1,0 +1,4803 @@
+{
+  "title": "First Call Analysis",
+  "desc": "",
+  "source": "61546c9c1c97a1003523fff4",
+  "type": "dashboard",
+  "style": {
+    "name": "vivid",
+    "palette": {
+      "_id": "5c0690cc734dae036ccaafe5",
+      "colors": [
+        "#60C2BB",
+        "#94A1A8",
+        "#6E798D",
+        "#FA7240",
+        "#E2BA50"
+      ],
+      "name": "Urban",
+      "isDefault": false,
+      "sortOrder": 30,
+      "isSystem": true
+    }
+  },
+  "layout": {
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "height": "124px",
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "615453131c97a1003523fe02"
+                  }
+                ],
+                "width": 20,
+                "stretchable": false,
+                "pxlWidth": 277.797,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "615453131c97a1003523fe05",
+                    "height": "124px"
+                  }
+                ],
+                "width": 20,
+                "stretchable": false,
+                "pxlWidth": 277.797,
+                "index": 1
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "615453131c97a1003523fe08",
+                    "height": "124px"
+                  }
+                ],
+                "width": 20,
+                "stretchable": false,
+                "pxlWidth": 277.797,
+                "index": 2
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "6155823b1c97a10035240b65",
+                    "height": "124px"
+                  }
+                ],
+                "width": 20,
+                "stretchable": false,
+                "pxlWidth": 277.797,
+                "index": 3
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "615c24791c97a1003524523a",
+                    "height": "124px"
+                  }
+                ],
+                "width": 20,
+                "stretchable": false,
+                "pxlWidth": 277.797,
+                "index": 4
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "615453131c97a1003523fe00",
+                    "height": "316px"
+                  }
+                ],
+                "width": 52.258512856150105,
+                "stretchable": false,
+                "pxlWidth": 725.859,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "615599131c97a10035240d47",
+                    "height": "316px",
+                    "autoHeight": "47px"
+                  }
+                ],
+                "width": 47.741487143849895,
+                "stretchable": false,
+                "pxlWidth": 663.125,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "615589761c97a10035240c2c",
+                    "height": "312px"
+                  }
+                ],
+                "width": 52.258512856150105,
+                "stretchable": false,
+                "pxlWidth": 725.859,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "61559bc91c97a10035240dad",
+                    "height": "312px",
+                    "autoHeight": "47px"
+                  }
+                ],
+                "width": 47.741487143849895,
+                "stretchable": false,
+                "pxlWidth": 663.125,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "200px",
+                    "defaultWidth": 512,
+                    "widgetid": "615453131c97a1003523fe07",
+                    "autoHeight": "47px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1389,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1389,
+        "index": 0
+      }
+    ],
+    "instanceid": "DB958-9C3E-FF",
+    "type": "columnar",
+    "container": {}
+  },
+  "original": null,
+  "oid": "615453131c97a1003523fdfe",
+  "dataExploration": false,
+  "datasource": {
+    "fullname": "localhost/First_Call FXVC",
+    "id": "localhost_aFirstXwAaCallIAAaFXVC",
+    "address": "LocalHost",
+    "database": "aFirstXwAaCallIAAaFXVC",
+    "live": false,
+    "title": "First_Call FXVC"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "RegTime",
+        "dim": "[Customers.RegTime (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "months",
+        "title": "Months in RegTime",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 1
+          }
+        }
+      },
+      "instanceid": "C2756-BD9B-E5",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "SiteName",
+        "dim": "[Customers.SiteName]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "SiteName",
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "73BDD-7D20-77",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[Customers.country_name]",
+        "title": "country_name",
+        "column": "country_name",
+        "table": "Customers",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "8C602-E616-47",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "numeric",
+        "dim": "[Customers.has_call]",
+        "title": "has_call",
+        "column": "has_call",
+        "table": "Customers",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "First_Call FXVC",
+          "fullname": "LocalHost/First_Call FXVC",
+          "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "9A785-6970-FA",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Dim_Date",
+        "column": "Weekday_Weekend",
+        "dim": "[Dim_Date.Weekday_Weekend]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "Weekday_Weekend",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "weekday"
+          ]
+        }
+      },
+      "instanceid": "4B8C5-4510-82",
+      "isCascading": false,
+      "disabled": false,
+      "locked": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "is_working_hours",
+        "dim": "[Customers.is_working_hours]",
+        "datatype": "numeric",
+        "collapsed": true,
+        "title": "is_working_hours",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "8E70C-AAA6-4D",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "reg_not_in_calling_hours",
+        "dim": "[Customers.reg_not_in_calling_hours]",
+        "datatype": "numeric",
+        "collapsed": true,
+        "title": "reg_not_in_calling_hours",
+        "datasource": {
+          "fullname": "LocalHost/First_Call FXVC",
+          "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "E277E-5D9E-39",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "numeric",
+        "dim": "[Customers.hour_id]",
+        "title": "hour_id",
+        "column": "hour_id",
+        "table": "Customers",
+        "datasource": {
+          "title": "First_Call FXVC",
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "23D5F-0E06-9B",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[Customers.campaign_sub_id]",
+        "title": "campaign_sub_id",
+        "column": "campaign_sub_id",
+        "table": "Customers",
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "C8D2B-6F94-B8",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "RegTime",
+        "dim": "[Customers.RegTime (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "level": "months",
+        "title": "Months in RegTime",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 1
+          }
+        }
+      },
+      "instanceid": "C2756-BD9B-E5",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "SiteName",
+        "dim": "[Customers.SiteName]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "SiteName",
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "73BDD-7D20-77",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[Customers.country_name]",
+        "title": "country_name",
+        "column": "country_name",
+        "table": "Customers",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "8C602-E616-47",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "numeric",
+        "dim": "[Customers.has_call]",
+        "title": "has_call",
+        "column": "has_call",
+        "table": "Customers",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "First_Call FXVC",
+          "fullname": "LocalHost/First_Call FXVC",
+          "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "9A785-6970-FA",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Dim_Date",
+        "column": "Weekday_Weekend",
+        "dim": "[Dim_Date.Weekday_Weekend]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "Weekday_Weekend",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "weekday"
+          ]
+        }
+      },
+      "instanceid": "4B8C5-4510-82",
+      "isCascading": false,
+      "disabled": false,
+      "locked": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "is_working_hours",
+        "dim": "[Customers.is_working_hours]",
+        "datatype": "numeric",
+        "collapsed": true,
+        "title": "is_working_hours",
+        "isDashboardFilter": true,
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "8E70C-AAA6-4D",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "reg_not_in_calling_hours",
+        "dim": "[Customers.reg_not_in_calling_hours]",
+        "datatype": "numeric",
+        "collapsed": true,
+        "title": "reg_not_in_calling_hours",
+        "datasource": {
+          "fullname": "LocalHost/First_Call FXVC",
+          "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "E277E-5D9E-39",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "numeric",
+        "dim": "[Customers.hour_id]",
+        "title": "hour_id",
+        "column": "hour_id",
+        "table": "Customers",
+        "datasource": {
+          "title": "First_Call FXVC",
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "23D5F-0E06-9B",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "datatype": "text",
+        "dim": "[Customers.campaign_sub_id]",
+        "title": "campaign_sub_id",
+        "column": "campaign_sub_id",
+        "table": "Customers",
+        "datasource": {
+          "fullname": "localhost/First_Call FXVC",
+          "id": "localhost_aFirstXwAaCallIAAaFXVC",
+          "address": "LocalHost",
+          "database": "aFirstXwAaCallIAAaFXVC",
+          "live": false,
+          "title": "First_Call FXVC"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "C8D2B-6F94-B8",
+      "isCascading": false,
+      "disabled": false
+    }
+  ],
+  "lastPublish": "2021-12-20T14:51:07.185Z",
+  "parentFolder": "61bc54baffcc760037102232",
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "allowChangeSubscription": false,
+  "isPublic": null,
+  "previewLayout": null,
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": -120,
+    "tzName": "Europe/Kiev",
+    "context": {
+      "dashboardid": "615453131c97a1003523fdfe"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2021-09-29",
+    "subscribe": false
+  },
+  "tenantId": "6005951eebdb06001a08e954",
+  "widgets": [
+    {
+      "title": "Countries Stats 0 minimum 50 Reg",
+      "subtype": "column/classic",
+      "desc": null,
+      "source": "6155bb2b1c97a10035240ffb",
+      "datasource": {
+        "fullname": "localhost/First_Call FXVC",
+        "id": "localhost_aFirstXwAaCallIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC",
+        "live": false,
+        "title": "First_Call FXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "country_name",
+                  "dim": "[Customers.country_name]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "country_name"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.country_name]",
+                  "index": 0
+                },
+                "format": {
+                  "continuous": false
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "counter",
+                  "dim": "[Customers.counter]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "# Reg",
+                  "sort": "desc",
+                  "sortDetails": {
+                    "field": 1,
+                    "dir": "desc",
+                    "sortingLastDimension": "sum",
+                    "initialized": true,
+                    "isLastApplied": true
+                  }
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.counter]_sum",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#e6e6e6"
+                  }
+                },
+                "valueLabelSettings": {
+                  "none": true,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "y2": false
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([C748F-BA5])",
+                  "context": {
+                    "[C748F-BA5]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Median of minutes_first_call",
+                      "agg": "median"
+                    },
+                    "[C430F-378]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Average minutes_first_call",
+                      "agg": "avg"
+                    }
+                  },
+                  "title": "Median first Call"
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.minutes_first_call]_sum",
+                  "index": 2
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": true
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#ff956e"
+                  },
+                  "nullzero": true
+                },
+                "y2": true,
+                "singleSeriesType": "line",
+                "valueLabelSettings": {
+                  "none": true,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "disabled": false
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([BD9C3-A96])",
+                  "context": {
+                    "[80F54-993]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Median of minutes_first_call",
+                      "agg": "median"
+                    },
+                    "[BD9C3-A96]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Average minutes_first_call",
+                      "agg": "avg"
+                    }
+                  },
+                  "title": "Avg first Call"
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.minutes_first_call]_sum",
+                  "index": 2
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": true
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "nullzero": true,
+                  "color": {
+                    "type": "color",
+                    "color": "#91a0ba"
+                  }
+                },
+                "y2": true,
+                "singleSeriesType": "line",
+                "valueLabelSettings": {
+                  "none": false,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "counter",
+                  "dim": "[Customers.counter]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "# Reg",
+                  "sort": "desc",
+                  "sortDetails": {
+                    "field": 1,
+                    "dir": "desc",
+                    "sortingLastDimension": "sum",
+                    "initialized": true,
+                    "isLastApplied": true
+                  },
+                  "filter": {
+                    "fromNotEqual": "49"
+                  },
+                  "datasource": {
+                    "fullname": "localhost/First_Call FXVC",
+                    "id": "localhost_aFirstXwAaCallIAAaFXVC",
+                    "address": "LocalHost",
+                    "database": "aFirstXwAaCallIAAaFXVC",
+                    "live": false,
+                    "title": "First_Call FXVC"
+                  },
+                  "collapsed": false
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "oid": "615453131c97a1003523fe00",
+      "type": "chart/column",
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "top"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true,
+          "max": ""
+        },
+        "y2Axis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true,
+          "templateMainYHasGridLines": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "lineWidth": {
+          "width": "bold"
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "filled",
+          "size": "small"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country_name",
+              "title": "country_name",
+              "singular": "country_name",
+              "plural": "country_name"
+            }
+          ]
+        }
+      },
+      "instanceid": "F94D9-1307-14",
+      "queryStartTime": "2021-10-19T15:14:37",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "hasExcessiveSeries": false,
+      "disableSelctor": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "chart/column",
+          "isTypeValid": true,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "canEditFilters": true,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# Reg",
+                  "Median first Call",
+                  "Avg first Call"
+                ],
+                "value": "# Reg"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "",
+      "subtype": "indicator/numeric",
+      "desc": null,
+      "source": "6155bb2b1c97a10035240ffc",
+      "datasource": {
+        "title": "First_Call FXVC",
+        "fullname": "LocalHost/First_Call FXVC",
+        "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "counter",
+                  "dim": "[Customers.counter]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "# Reg"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#60C2BB",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "oid": "615453131c97a1003523fe02",
+      "type": "indicator",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "hideTitle": true
+      },
+      "instanceid": "6212C-D16D-39",
+      "queryStartTime": "2021-09-30T13:54:30",
+      "widgetTimingLoged": false,
+      "drawing": true,
+      "custom": {
+        "barcolumnchart": {
+          "type": "indicator",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# Reg"
+                ],
+                "value": "# Reg"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "",
+      "subtype": "indicator/numeric",
+      "desc": null,
+      "source": "6155bb2b1c97a10035240ffd",
+      "datasource": {
+        "title": "First_Call FXVC",
+        "fullname": "LocalHost/First_Call FXVC",
+        "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(avg([D2E20-C35]),[A1933-C0C])",
+                  "context": {
+                    "[A1933-C0C]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "minutes_first_call",
+                      "filter": {
+                        "explicit": false,
+                        "multiSelection": true,
+                        "exclude": {
+                          "members": [
+                            "N\\A"
+                          ]
+                        }
+                      },
+                      "datasource": {
+                        "title": "First_Call FXVC",
+                        "fullname": "LocalHost/First_Call FXVC",
+                        "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+                        "address": "LocalHost",
+                        "database": "aFirstXwAaCallIAAaFXVC"
+                      }
+                    },
+                    "[D2E20-C35]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Minutes First Call"
+                    }
+                  },
+                  "title": "Avg First Call"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "color": "#60C2BB",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "oid": "615453131c97a1003523fe05",
+      "type": "indicator",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "hideTitle": true
+      },
+      "instanceid": "6212C-D16D-39",
+      "queryStartTime": "2021-09-30T14:10:48",
+      "widgetTimingLoged": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "indicator",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# Reg"
+                ],
+                "value": "# Reg"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "Row Data",
+      "subtype": "pivot2",
+      "desc": null,
+      "source": "6155bb2b1c97a10035240ffe",
+      "datasource": {
+        "title": "First_Call FXVC",
+        "fullname": "LocalHost/First_Call FXVC",
+        "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "customer_id",
+                  "dim": "[Customers.customer_id]",
+                  "datatype": "numeric",
+                  "title": "customer_id",
+                  "sort": null
+                },
+                "field": {
+                  "id": "[Customers.customer_id]",
+                  "index": 0
+                },
+                "disabled": false,
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "full_name",
+                  "dim": "[Customers.full_name]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "full_name",
+                  "sort": null
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.full_name]",
+                  "index": 1
+                },
+                "format": {
+                  "width": 120.859375
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "sale_status",
+                  "dim": "[Customers.sale_status]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "sale_status",
+                  "sort": null
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.sale_status]",
+                  "index": 2
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "campaign_sub_id",
+                  "dim": "[Customers.campaign_sub_id]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "sub_id",
+                  "sort": null
+                },
+                "field": {
+                  "id": "[Customers.campaign_sub_id]",
+                  "index": 3
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "country_name",
+                  "dim": "[Customers.country_name]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "country_name",
+                  "sort": null
+                },
+                "field": {
+                  "id": "[Customers.country_name]",
+                  "index": 4
+                },
+                "disabled": false,
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Dim_Date",
+                  "column": "Day_Name_Of_Week",
+                  "dim": "[Dim_Date.Day_Name_Of_Week]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Weekday",
+                  "sort": null
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Dim_Date.Day_Name_Of_Week]",
+                  "index": 5
+                },
+                "format": {
+                  "width": 113.09375
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "RegTime",
+                  "dim": "[Customers.RegTime (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "RegTime",
+                  "sort": null
+                },
+                "field": {
+                  "id": "[Customers.RegTime (Calendar)]_years",
+                  "index": 6
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  }
+                },
+                "hierarchies": [],
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "RegTime",
+                  "dim": "[Customers.RegTime (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "minutes",
+                  "title": "RegTime Min",
+                  "bucket": "1",
+                  "sort": null
+                },
+                "field": {
+                  "id": "[Customers.RegTime (Calendar)]_years",
+                  "index": 7
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm",
+                    "isdefault": true
+                  },
+                  "width": 131.1875
+                },
+                "hierarchies": [],
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "first_call_date_time",
+                  "dim": "[Customers.first_call_date_time (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "first call date",
+                  "sort": null
+                },
+                "field": {
+                  "id": "[Customers.first_call_date_time (Calendar)]_years",
+                  "index": 8
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "shortDate",
+                    "minutes": "HH:mm"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "first_call_date_time",
+                  "dim": "[Customers.first_call_date_time (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "minutes",
+                  "title": "Min in first call",
+                  "bucket": "1",
+                  "sort": null
+                },
+                "field": {
+                  "id": "[Customers.first_call_date_time (Calendar)]_years",
+                  "index": 9
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "dd/MM/yyyy",
+                    "minutes": "HH:mm"
+                  },
+                  "width": 142.5
+                },
+                "hierarchies": [],
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "minutes_first_call",
+                  "dim": "[Customers.minutes_first_call]",
+                  "datatype": "numeric",
+                  "title": "Minute Diff",
+                  "sort": "desc",
+                  "sortDetails": {
+                    "field": 10,
+                    "dir": "desc",
+                    "sortingLastDimension": false,
+                    "initialized": true,
+                    "isLastApplied": true
+                  }
+                },
+                "field": {
+                  "id": "[Customers.minutes_first_call]_sum",
+                  "index": 10
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 1,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "width": 122
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "reg_not_in_calling_hours",
+                  "dim": "[Customers.reg_not_in_calling_hours]",
+                  "datatype": "numeric",
+                  "title": "is calling hour",
+                  "sort": null
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.reg_not_in_calling_hours]",
+                  "index": 11
+                },
+                "format": {
+                  "width": 151.09375
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": []
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "oid": "615453131c97a1003523fe07",
+      "type": "pivot2",
+      "style": {
+        "scroll": false,
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "customer_id",
+              "title": "customer_id",
+              "singular": "customer_id",
+              "plural": "customer_id"
+            },
+            {
+              "id": "full_name",
+              "title": "full_name",
+              "singular": "full_name",
+              "plural": "full_name"
+            },
+            {
+              "id": "sale_status",
+              "title": "sale_status",
+              "singular": "sale_status",
+              "plural": "sale_status"
+            },
+            {
+              "id": "sub_id",
+              "title": "sub_id",
+              "singular": "sub_id",
+              "plural": "sub_id"
+            },
+            {
+              "id": "country_name",
+              "title": "country_name",
+              "singular": "country_name",
+              "plural": "country_name"
+            },
+            {
+              "id": "weekday",
+              "title": "Weekday",
+              "singular": "Weekday",
+              "plural": "Weekday"
+            },
+            {
+              "id": "regtime",
+              "title": "RegTime",
+              "singular": "RegTime",
+              "plural": "RegTime"
+            },
+            {
+              "id": "regtime_min",
+              "title": "RegTime Min",
+              "singular": "RegTime Min",
+              "plural": "RegTime Min"
+            },
+            {
+              "id": "first_call_date",
+              "title": "first call date",
+              "singular": "first call date",
+              "plural": "first call date"
+            },
+            {
+              "id": "min_in_first_call",
+              "title": "Min in first call",
+              "singular": "Min in first call",
+              "plural": "Min in first call"
+            },
+            {
+              "id": "diff_reg_to_first",
+              "title": "Diff reg to first",
+              "singular": "Diff reg to first",
+              "plural": "Diff reg to first"
+            },
+            {
+              "id": "is_calling_hour",
+              "title": "is calling hour",
+              "singular": "is calling hour",
+              "plural": "is calling hour"
+            }
+          ]
+        }
+      },
+      "instanceid": "E5456-F8D2-FE",
+      "queryStartTime": "2021-09-30T13:56:25",
+      "widgetTimingLoged": false,
+      "drawing": true,
+      "custom": {
+        "barcolumnchart": {
+          "type": "pivot2",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "selectorLocked": false
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "wasTransposed": false,
+      "continuousDates": false,
+      "currentPage": 0,
+      "forcedRedraw": false,
+      "inFullScreenMode": true,
+      "maxDate": -27080284624000,
+      "minDate": -27080358844000,
+      "nullAsZero": false,
+      "tickInterval": null,
+      "tickLevel": "minute",
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "",
+      "subtype": "indicator/numeric",
+      "desc": null,
+      "source": "6155bb2b1c97a10035240fff",
+      "datasource": {
+        "title": "First_Call FXVC",
+        "fullname": "LocalHost/First_Call FXVC",
+        "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "minutes_first_call",
+                  "dim": "[Customers.minutes_first_call]",
+                  "datatype": "numeric",
+                  "agg": "median",
+                  "title": "Median First Call"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "decimals": 1,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "color": "#60C2BB",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "oid": "615453131c97a1003523fe08",
+      "type": "indicator",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": true
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "hideTitle": true
+      },
+      "instanceid": "6212C-D16D-39",
+      "queryStartTime": "2021-09-30T14:10:48",
+      "widgetTimingLoged": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "indicator",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# Reg"
+                ],
+                "value": "# Reg"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ]
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "is reg in Calling Hours",
+      "subtype": "bar/classic",
+      "oid": "6155823b1c97a10035240b65",
+      "desc": null,
+      "source": "6155bb2b1c97a10035241000",
+      "datasource": {
+        "title": "First_Call FXVC",
+        "fullname": "LocalHost/First_Call FXVC",
+        "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "reg_not_in_calling_hours",
+                  "dim": "[Customers.reg_not_in_calling_hours]",
+                  "datatype": "numeric",
+                  "title": "reg_not_in_calling_hours"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.reg_not_in_calling_hours]",
+                  "index": 0
+                },
+                "format": {
+                  "members": {
+                    "0": {
+                      "color": "#60C2BB",
+                      "title": "0",
+                      "sortData": 0,
+                      "inResultset": true
+                    },
+                    "1": {
+                      "color": "#94A1A8",
+                      "title": "1",
+                      "sortData": 1,
+                      "inResultset": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Contribution([682D9-DE7])",
+                  "context": {
+                    "[682D9-DE7]": {
+                      "table": "Customers",
+                      "column": "counter",
+                      "dim": "[Customers.counter]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "# Reg"
+                    }
+                  },
+                  "title": "% reg"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    },
+                    "type": "percent"
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#91a0ba"
+                  }
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.counter]_sum",
+                  "index": 1
+                },
+                "originalJaql": {
+                  "table": "Customers",
+                  "column": "counter",
+                  "dim": "[Customers.counter]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "# Reg"
+                },
+                "quickFunction": "Contribution"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "chart/bar",
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": false,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "reg_not_in_calling_hours",
+              "title": "reg_not_in_calling_hours",
+              "singular": "reg_not_in_calling_hours",
+              "plural": "reg_not_in_calling_hours"
+            }
+          ]
+        },
+        "hideTitle": false
+      },
+      "instanceid": "41E80-CBE6-D8",
+      "queryStartTime": "2021-10-19T15:14:37",
+      "disableSelctor": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "chart/bar",
+          "isTypeValid": true,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false,
+        "model": ""
+      },
+      "displayMenu": true,
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "% reg"
+                ],
+                "value": "% reg"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 1
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "drawing": true,
+      "hasExcessiveSeries": false,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "Stats per reg Hour",
+      "subtype": "column/classic",
+      "oid": "615589761c97a10035240c2c",
+      "desc": null,
+      "source": "6155bb2b1c97a10035241001",
+      "datasource": {
+        "fullname": "localhost/First_Call FXVC",
+        "id": "localhost_aFirstXwAaCallIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC",
+        "live": false,
+        "title": "First_Call FXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "hour_id",
+                  "dim": "[Customers.hour_id]",
+                  "datatype": "numeric",
+                  "title": "hour_id"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "counter",
+                  "dim": "[Customers.counter]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "# Reg",
+                  "sortDetails": {
+                    "field": 1,
+                    "dir": "desc",
+                    "sortingLastDimension": "sum",
+                    "initialized": true,
+                    "isLastApplied": true
+                  }
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.counter]_sum",
+                  "index": 1
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#e6e6e6"
+                  }
+                },
+                "valueLabelSettings": {
+                  "none": true,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "y2": false
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([C748F-BA5])",
+                  "context": {
+                    "[C748F-BA5]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Median of minutes_first_call",
+                      "agg": "median"
+                    },
+                    "[C430F-378]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Average minutes_first_call",
+                      "agg": "avg"
+                    }
+                  },
+                  "title": "Median first Call"
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.minutes_first_call]_sum",
+                  "index": 2
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": true
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#ff956e"
+                  },
+                  "nullzero": true
+                },
+                "y2": true,
+                "singleSeriesType": "line",
+                "valueLabelSettings": {
+                  "none": true,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "disabled": false
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([0FABC-880])",
+                  "context": {
+                    "[07DD4-4FD]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Median of minutes_first_call",
+                      "agg": "median"
+                    },
+                    "[0FABC-880]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Average minutes_first_call",
+                      "agg": "avg"
+                    }
+                  },
+                  "title": "Avg first Call"
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.minutes_first_call]_sum",
+                  "index": 2
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "nullzero": true,
+                  "color": {
+                    "type": "color",
+                    "color": "#91a0ba"
+                  }
+                },
+                "y2": true,
+                "singleSeriesType": "line",
+                "valueLabelSettings": {
+                  "none": false,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "chart/column",
+      "style": {
+        "legend": {
+          "enabled": true,
+          "position": "top"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true,
+          "max": ""
+        },
+        "y2Axis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "hideMinMax": false,
+          "isIntervalEnabled": true,
+          "templateMainYHasGridLines": true
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "lineWidth": {
+          "width": "bold"
+        },
+        "markers": {
+          "enabled": true,
+          "fill": "filled",
+          "size": "small"
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "hour_id",
+              "title": "hour_id",
+              "singular": "hour_id",
+              "plural": "hour_id"
+            }
+          ]
+        }
+      },
+      "instanceid": "17045-ADD1-A9",
+      "queryStartTime": "2021-10-19T15:14:37",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "hasExcessiveSeries": false,
+      "disableSelctor": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "chart/column",
+          "isTypeValid": true,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": true,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "canEditFilters": true,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "# Reg",
+                  "Median first Call",
+                  "Avg first Call"
+                ],
+                "value": "# Reg"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": null,
+          "max": null
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "Countries stats break by Calling Hours",
+      "subtype": "pivot2",
+      "oid": "615599131c97a10035240d47",
+      "desc": null,
+      "source": "6155bb2b1c97a10035241002",
+      "datasource": {
+        "fullname": "localhost/First_Call FXVC",
+        "id": "localhost_aFirstXwAaCallIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC",
+        "live": false,
+        "title": "First_Call FXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "country_name",
+                  "dim": "[Customers.country_name]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "country_name"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.country_name]",
+                  "index": 0
+                },
+                "format": {
+                  "continuous": false
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "counter",
+                  "dim": "[Customers.counter]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "# Reg",
+                  "sort": "desc",
+                  "sortDetails": {
+                    "field": 1,
+                    "dir": "desc",
+                    "sortingLastDimension": "sum",
+                    "initialized": true,
+                    "isLastApplied": true
+                  }
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.counter]_sum",
+                  "index": 2
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "valueLabelSettings": {
+                  "none": true,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "y2": false
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([C748F-BA5])",
+                  "context": {
+                    "[C748F-BA5]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Median of minutes_first_call",
+                      "agg": "median"
+                    },
+                    "[C430F-378]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Average minutes_first_call",
+                      "agg": "avg"
+                    }
+                  },
+                  "title": "Median",
+                  "sort": null,
+                  "datatype": "numeric"
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.minutes_first_call]_sum",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": true
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "nullzero": true,
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "y2": true,
+                "singleSeriesType": "line",
+                "valueLabelSettings": {
+                  "none": false,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "disabled": false
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([BD9C3-A96])",
+                  "context": {
+                    "[80F54-993]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Median of minutes_first_call",
+                      "agg": "median"
+                    },
+                    "[BD9C3-A96]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Average minutes_first_call",
+                      "agg": "avg"
+                    }
+                  },
+                  "title": "Avg",
+                  "sort": null,
+                  "datatype": "numeric"
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.minutes_first_call]_sum",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": true
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "nullzero": true,
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "y2": true,
+                "singleSeriesType": "line",
+                "valueLabelSettings": {
+                  "none": false,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "reg_not_in_calling_hours",
+                  "dim": "[Customers.reg_not_in_calling_hours]",
+                  "datatype": "numeric",
+                  "title": "reg_not_in_calling_hours",
+                  "sort": null
+                },
+                "panel": "columns",
+                "field": {
+                  "id": "[Customers.reg_not_in_calling_hours]",
+                  "index": 1
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "pivot2",
+      "style": {
+        "scroll": false,
+        "pageSize": 8,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "country_name",
+              "title": "country_name",
+              "singular": "country_name",
+              "plural": "country_name"
+            },
+            {
+              "id": "reg_not_in_calling_hours",
+              "title": "reg_not_in_calling_hours",
+              "singular": "reg_not_in_calling_hours",
+              "plural": "reg_not_in_calling_hours"
+            }
+          ]
+        }
+      },
+      "instanceid": "85A49-2869-6E",
+      "queryStartTime": "2021-11-12T12:38:02",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "hasExcessiveSeries": false,
+      "disableSelctor": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "pivot2",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "canEditFilters": true,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "selectorLocked": false
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "drawing": true,
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "wasTransposed": false,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "Campaigns stats break by Calling Hours",
+      "subtype": "pivot2",
+      "oid": "61559bc91c97a10035240dad",
+      "desc": null,
+      "source": "6155bb2b1c97a10035241003",
+      "datasource": {
+        "fullname": "localhost/First_Call FXVC",
+        "id": "localhost_aFirstXwAaCallIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC",
+        "live": false,
+        "title": "First_Call FXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "campaign_sub_id",
+                  "dim": "[Customers.campaign_sub_id]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "campaign_sub_id"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.campaign_sub_id]",
+                  "index": 0
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "counter",
+                  "dim": "[Customers.counter]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "# Reg",
+                  "sort": "desc",
+                  "sortDetails": {
+                    "field": 1,
+                    "dir": "desc",
+                    "sortingLastDimension": "sum",
+                    "initialized": true,
+                    "isLastApplied": true
+                  }
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.counter]_sum",
+                  "index": 2
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "valueLabelSettings": {
+                  "none": true,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "y2": false
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([C748F-BA5])",
+                  "context": {
+                    "[C748F-BA5]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Median of minutes_first_call",
+                      "agg": "median"
+                    },
+                    "[C430F-378]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Average minutes_first_call",
+                      "agg": "avg"
+                    }
+                  },
+                  "title": "Median",
+                  "sort": null,
+                  "datatype": "numeric"
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.minutes_first_call]_sum",
+                  "index": 3
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": true
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "nullzero": true,
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "y2": true,
+                "singleSeriesType": "line",
+                "valueLabelSettings": {
+                  "none": false,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "disabled": false
+              },
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "([BD9C3-A96])",
+                  "context": {
+                    "[80F54-993]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Median of minutes_first_call",
+                      "agg": "median"
+                    },
+                    "[BD9C3-A96]": {
+                      "table": "Customers",
+                      "column": "minutes_first_call",
+                      "dim": "[Customers.minutes_first_call]",
+                      "datatype": "numeric",
+                      "title": "Average minutes_first_call",
+                      "agg": "avg"
+                    }
+                  },
+                  "title": "Avg",
+                  "sort": null,
+                  "datatype": "numeric"
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.minutes_first_call]_sum",
+                  "index": 4
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": true
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "nullzero": true,
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "y2": true,
+                "singleSeriesType": "line",
+                "valueLabelSettings": {
+                  "none": false,
+                  "first": false,
+                  "last": false,
+                  "min": false,
+                  "max": false
+                },
+                "disabled": false
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "reg_not_in_calling_hours",
+                  "dim": "[Customers.reg_not_in_calling_hours]",
+                  "datatype": "numeric",
+                  "title": "reg_not_in_calling_hours",
+                  "sort": null
+                },
+                "panel": "columns",
+                "field": {
+                  "id": "[Customers.reg_not_in_calling_hours]",
+                  "index": 1
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "pivot2",
+      "style": {
+        "scroll": false,
+        "pageSize": 8,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "campaign_sub_id",
+              "title": "campaign_sub_id",
+              "singular": "campaign_sub_id",
+              "plural": "campaign_sub_id"
+            },
+            {
+              "id": "reg_not_in_calling_hours",
+              "title": "reg_not_in_calling_hours",
+              "singular": "reg_not_in_calling_hours",
+              "plural": "reg_not_in_calling_hours"
+            }
+          ]
+        }
+      },
+      "instanceid": "85A49-2869-6E",
+      "queryStartTime": "2021-09-30T14:14:26",
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "hasExcessiveSeries": false,
+      "disableSelctor": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "pivot2",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false
+      },
+      "wasTransposed": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "selectorLocked": false
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "is reg in Working Hours",
+      "subtype": "bar/classic",
+      "oid": "615c24791c97a1003524523a",
+      "desc": null,
+      "source": "615c24791c97a1003524523b",
+      "datasource": {
+        "title": "First_Call FXVC",
+        "fullname": "LocalHost/First_Call FXVC",
+        "id": "aLOCALHOST_aFIRSTXwAaCALLIAAaFXVC",
+        "address": "LocalHost",
+        "database": "aFirstXwAaCallIAAaFXVC"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "is_working_hours",
+                  "dim": "[Customers.is_working_hours]",
+                  "datatype": "numeric",
+                  "title": "is_working_hours"
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "Contribution([682D9-DE7])",
+                  "context": {
+                    "[682D9-DE7]": {
+                      "table": "Customers",
+                      "column": "counter",
+                      "dim": "[Customers.counter]",
+                      "datatype": "numeric",
+                      "agg": "sum",
+                      "title": "# Reg"
+                    }
+                  },
+                  "title": "% reg"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    },
+                    "type": "percent"
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "#91a0ba"
+                  }
+                },
+                "panel": "measures",
+                "field": {
+                  "id": "[Customers.counter]_sum",
+                  "index": 1
+                },
+                "originalJaql": {
+                  "table": "Customers",
+                  "column": "counter",
+                  "dim": "[Customers.counter]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "# Reg"
+                },
+                "quickFunction": "Contribution"
+              }
+            ]
+          },
+          {
+            "name": "break by",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "chart/bar",
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "bottom"
+        },
+        "seriesLabels": {
+          "enabled": true,
+          "rotation": 0,
+          "labels": {
+            "enabled": false,
+            "types": {
+              "count": false,
+              "percentage": false,
+              "relative": false,
+              "totals": false
+            },
+            "stacked": false,
+            "stackedPercentage": false
+          }
+        },
+        "xAxis": {
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "x2Title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "isIntervalEnabled": false
+        },
+        "yAxis": {
+          "inactive": false,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": false,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": true,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "y2Axis": {
+          "inactive": true,
+          "enabled": true,
+          "ticks": true,
+          "labels": {
+            "enabled": true,
+            "rotation": 0
+          },
+          "title": {
+            "enabled": false
+          },
+          "gridLines": false,
+          "logarithmic": false,
+          "isIntervalEnabled": true,
+          "hideMinMax": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 50,
+          "categoriesCapacity": 100000
+        },
+        "navigator": {
+          "enabled": true
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "is_working_hours",
+              "title": "is_working_hours",
+              "singular": "is_working_hours",
+              "plural": "is_working_hours"
+            }
+          ]
+        },
+        "hideTitle": false
+      },
+      "instanceid": "41E80-CBE6-D8",
+      "queryStartTime": "2021-10-19T15:14:37",
+      "disableSelctor": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "chart/bar",
+          "isTypeValid": true,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "questQueryResult": {
+        "isActive": false,
+        "isPending": false,
+        "model": ""
+      },
+      "displayMenu": true,
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "hasExcessiveSeries": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true,
+        "aiFeatures": [
+          {
+            "id": "summary_statistics_1569425202576",
+            "name": "Summary Statistics",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Provide information about your data",
+            "isCustomModel": true
+          },
+          {
+            "id": "percentile_curves_1574252861643",
+            "name": "Percentile Curves",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Another way to show distributions",
+            "isCustomModel": true
+          },
+          {
+            "id": "pareto_1569481451806",
+            "name": "Pareto",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Roughly 80% of the effects come from 20% of the causes",
+            "isCustomModel": true
+          },
+          {
+            "id": "two-tailed_test_1574241584650",
+            "name": "Two-Tailed Test",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "perform two tailed t-test",
+            "isCustomModel": true
+          },
+          {
+            "id": "cluster_1570673124179",
+            "name": "Clustering",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups",
+            "isCustomModel": true
+          },
+          {
+            "id": "growth_rate_1572222323562",
+            "name": "Growth Rates",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "refer to the percentage change of a specific variable within a specific time period and given a certain context",
+            "isCustomModel": true
+          },
+          {
+            "id": "anomaly",
+            "name": "Anomaly",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Outlier data points detections",
+            "isCustomModel": false
+          },
+          {
+            "id": "forecast",
+            "name": "What-If Analysis",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {
+              "hasTargetVar": true,
+              "targetVar": {
+                "targetVarPaneActive": false,
+                "sectionTitle": "Target Value",
+                "options": [
+                  "% reg"
+                ],
+                "value": "% reg"
+              }
+            },
+            "description": "Predict the future values of a 2-var-TS, one of which is the target and the\n                    second is explaining variable.\n                    Provide non-symmetric confidence-interval for the above predictions.\n                    Var-Dependence (Score) - the strength of the influence of the explaining\n                    variable on the target one.\n                    XAI (model weights etc)",
+            "isCustomModel": false
+          },
+          {
+            "id": "local_estimates",
+            "name": "Local Estimate",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Locally (using before and after time series points) estimating the mean of the time series",
+            "isCustomModel": false
+          },
+          {
+            "id": "trend",
+            "name": "Trend",
+            "isEnabled": false,
+            "isPin": false,
+            "actions": {},
+            "options": {},
+            "description": "Detect (if exists) Trend-Break-Points and connect those with a trend line",
+            "isCustomModel": false
+          }
+        ],
+        "previousScrollerLocation": {
+          "min": 0,
+          "max": 1
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "615453131c97a1003523fdfe",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    }
+  ],
+  "hierarchies": []
+}
