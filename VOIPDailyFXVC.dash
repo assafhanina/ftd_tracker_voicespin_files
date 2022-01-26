@@ -1,0 +1,2856 @@
+{
+  "title": "VOIP Daily FXVC",
+  "oid": "5eb15b25846295228cb5fbfb",
+  "desc": "",
+  "source": "5eb4fd42ee656f6a0063b0bb",
+  "type": "dashboard",
+  "style": {
+    "name": "vivid",
+    "palette": {
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ],
+      "name": "Vivid",
+      "sortOrder": 10,
+      "isSystem": true,
+      "systemDefault": true
+    }
+  },
+  "layout": {
+    "instanceid": "CD817-2645-3C",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "5eb15dd64f76925370706583",
+                    "height": "120px"
+                  }
+                ],
+                "width": 25,
+                "stretchable": false,
+                "pxlWidth": 359.75,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "5eb15dee4f76925370706587",
+                    "height": "120px"
+                  }
+                ],
+                "width": 25,
+                "stretchable": false,
+                "pxlWidth": 359.75,
+                "index": 1
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "5eb3ce9c875a2d7fb8ca81b6",
+                    "height": "120px"
+                  }
+                ],
+                "width": 25,
+                "stretchable": false,
+                "pxlWidth": 359.75,
+                "index": 2
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 64,
+                    "maxHeight": 1028,
+                    "minWidth": 48,
+                    "maxWidth": 1028,
+                    "defaultWidth": 512,
+                    "widgetid": "5eb3d56aee656f6a0063ad37",
+                    "height": "120px"
+                  }
+                ],
+                "width": 25,
+                "stretchable": false,
+                "pxlWidth": 359.75,
+                "index": 3
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "100px",
+                    "defaultWidth": 512,
+                    "widgetid": "5eb41967ee656f6a0063ae4f",
+                    "autoHeight": "100px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1439,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1439,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "dataExploration": false,
+  "datasource": {
+    "title": "Voicespin",
+    "fullname": "LocalHost/Voicespin",
+    "id": "localhost_aaVOICESPIN",
+    "address": "LocalHost",
+    "database": "aVoicespin"
+  },
+  "filters": [
+    {
+      "jaql": {
+        "table": "DW_DimDate",
+        "column": "Full_Date",
+        "dim": "[DW_DimDate.Full_Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Days in Full_Date",
+        "level": "days",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 1
+          }
+        }
+      },
+      "instanceid": "BBE9F-8D0C-FC",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "SiteName",
+        "dim": "[Customers.SiteName]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "SiteName",
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "FXVC INT"
+          ]
+        }
+      },
+      "instanceid": "3D9DE-74B0-3A",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Employees",
+        "column": "group_name",
+        "dim": "[Employees.group_name]",
+        "datatype": "text",
+        "merged": true,
+        "title": "group_name",
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "EE9B6-B1CB-B8",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "table": "Employees",
+        "column": "team_name",
+        "dim": "[Employees.team_name]",
+        "datatype": "text",
+        "merged": true,
+        "title": "team_name",
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "9DE87-087E-E6",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "table": "Employees",
+        "column": "full_name_duplicate",
+        "dim": "[Employees.full_name_duplicate]",
+        "datatype": "text",
+        "merged": true,
+        "title": "full_name_duplicate",
+        "collapsed": true,
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "F05AC-FDEB-58",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Employees",
+        "column": "department",
+        "dim": "[Employees.department]",
+        "datatype": "text",
+        "merged": true,
+        "title": "department",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "Retention"
+          ]
+        }
+      },
+      "instanceid": "6BBED-C861-6E",
+      "isCascading": false,
+      "disabled": false,
+      "locked": true
+    }
+  ],
+  "editing": false,
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "DW_DimDate",
+        "column": "Full_Date",
+        "dim": "[DW_DimDate.Full_Date (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Days in Full_Date",
+        "level": "days",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 1
+          }
+        }
+      },
+      "instanceid": "BBE9F-8D0C-FC",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "SiteName",
+        "dim": "[Customers.SiteName]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "SiteName",
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "FXVC INT"
+          ]
+        }
+      },
+      "instanceid": "3D9DE-74B0-3A",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Employees",
+        "column": "group_name",
+        "dim": "[Employees.group_name]",
+        "datatype": "text",
+        "merged": true,
+        "title": "group_name",
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "EE9B6-B1CB-B8",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "table": "Employees",
+        "column": "team_name",
+        "dim": "[Employees.team_name]",
+        "datatype": "text",
+        "merged": true,
+        "title": "team_name",
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "9DE87-087E-E6",
+      "isCascading": false
+    },
+    {
+      "jaql": {
+        "table": "Employees",
+        "column": "full_name_duplicate",
+        "dim": "[Employees.full_name_duplicate]",
+        "datatype": "text",
+        "merged": true,
+        "title": "full_name_duplicate",
+        "collapsed": true,
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "F05AC-FDEB-58",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Employees",
+        "column": "department",
+        "dim": "[Employees.department]",
+        "datatype": "text",
+        "merged": true,
+        "title": "department",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "Voicespin",
+          "fullname": "LocalHost/Voicespin",
+          "id": "localhost_aaVOICESPIN",
+          "address": "LocalHost",
+          "database": "aVoicespin"
+        },
+        "filter": {
+          "explicit": true,
+          "multiSelection": true,
+          "members": [
+            "Retention"
+          ]
+        }
+      },
+      "instanceid": "6BBED-C861-6E",
+      "isCascading": false,
+      "disabled": false,
+      "locked": true
+    }
+  ],
+  "allowChangeSubscription": false,
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "0 00 22 * * *",
+    "timezone": -60,
+    "tzName": "Europe/Budapest",
+    "context": {
+      "dashboardid": "5eb15b25846295228cb5fbfb"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "subscribe": false
+  },
+  "isPublic": null,
+  "previewLayout": [],
+  "lastPublish": "2021-12-21T08:25:12.102Z",
+  "parentFolder": "61c18e441d93ad0037a5d20e",
+  "filterToDatasourceMapping": {},
+  "tenantId": "6005951eebdb06001a08e954",
+  "widgets": [
+    {
+      "title": "Calls Made",
+      "subtype": "indicator/numeric",
+      "oid": "5eb15dd64f76925370706583",
+      "desc": null,
+      "source": "5ebd12102e83340fcc0d436c",
+      "datasource": {
+        "title": "Voicespin",
+        "fullname": "LocalHost/Voicespin",
+        "id": "localhost_aaVOICESPIN",
+        "address": "LocalHost",
+        "database": "aVoicespin"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[8C1B2-270]",
+                  "context": {
+                    "[8C1B2-270]": {
+                      "table": "Calls",
+                      "column": "call_id",
+                      "dim": "[Calls.call_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "# of unique call_id",
+                      "agg": "count"
+                    },
+                    "[AF93F-81D]": {
+                      "table": "Calls",
+                      "column": "call_id",
+                      "dim": "[Calls.call_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "Call Id"
+                    }
+                  },
+                  "title": "[# of unique call_id]"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "indicator",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": false
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "9D126-A69B-3B",
+      "queryStartTime": "2020-05-07T11:30:40",
+      "widgetTimingLoged": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "indicator",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "5eb15b25846295228cb5fbfb",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "!# Customers Called",
+      "subtype": "indicator/numeric",
+      "oid": "5eb15dee4f76925370706587",
+      "desc": null,
+      "source": "5ebd12102e83340fcc0d436d",
+      "datasource": {
+        "title": "Voicespin",
+        "fullname": "LocalHost/Voicespin",
+        "id": "localhost_aaVOICESPIN",
+        "address": "LocalHost",
+        "database": "aVoicespin"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "[279B2-384]",
+                  "context": {
+                    "[279B2-384]": {
+                      "table": "Calls",
+                      "column": "accountcode",
+                      "dim": "[Calls.accountcode]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "# of unique accountcode",
+                      "agg": "count"
+                    },
+                    "[1B6DE-DA9]": {
+                      "table": "Calls",
+                      "column": "accountcode",
+                      "dim": "[Calls.accountcode]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "Accountcode"
+                    }
+                  },
+                  "title": "# of unique accountcode"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "indicator",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": false
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "9D126-A69B-3B",
+      "queryStartTime": "2020-05-07T11:30:40",
+      "widgetTimingLoged": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "indicator",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "5eb15b25846295228cb5fbfb",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "Not C2C calls",
+      "subtype": "indicator/numeric",
+      "oid": "5eb3ce9c875a2d7fb8ca81b6",
+      "desc": null,
+      "source": "5ebd12102e83340fcc0d436f",
+      "datasource": {
+        "title": "Voicespin",
+        "fullname": "LocalHost/Voicespin",
+        "id": "localhost_aaVOICESPIN",
+        "address": "LocalHost",
+        "database": "aVoicespin"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "(count([2AE2E-FA5]),[15414-C78])",
+                  "context": {
+                    "[15414-C78]": {
+                      "table": "Calls",
+                      "column": "accountcode",
+                      "dim": "[Calls.accountcode]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "accountcode",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          ""
+                        ]
+                      },
+                      "datasource": {
+                        "title": "Voicespin",
+                        "fullname": "LocalHost/Voicespin",
+                        "id": "localhost_aaVOICESPIN",
+                        "address": "LocalHost",
+                        "database": "aVoicespin"
+                      }
+                    },
+                    "[83D50-246]": {
+                      "table": "Calls",
+                      "column": "accountcode",
+                      "dim": "[Calls.accountcode]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "accountcode",
+                      "filter": {
+                        "explicit": true,
+                        "multiSelection": true,
+                        "members": [
+                          ""
+                        ]
+                      },
+                      "datasource": {
+                        "title": "Voicespin",
+                        "fullname": "LocalHost/Voicespin",
+                        "id": "localhost_aaVOICESPIN",
+                        "address": "LocalHost",
+                        "database": "aVoicespin"
+                      }
+                    },
+                    "[2AE2E-FA5]": {
+                      "table": "Calls",
+                      "column": "call_id",
+                      "dim": "[Calls.call_id]",
+                      "datatype": "text",
+                      "merged": true,
+                      "title": "call_id"
+                    }
+                  },
+                  "title": "Manual Calls Made"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": false
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "condition",
+                    "conditions": [
+                      {
+                        "color": "#6eda55",
+                        "operator": "=",
+                        "expression": "0",
+                        "expressionValue": "0"
+                      },
+                      {
+                        "color": "#ff0000",
+                        "operator": ">",
+                        "expression": "0",
+                        "expressionValue": "0"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "indicator",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": false
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "9D126-A69B-3B",
+      "queryStartTime": "2020-05-07T11:30:40",
+      "widgetTimingLoged": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "indicator",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "5eb15b25846295228cb5fbfb",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "AVG call Duration",
+      "subtype": "indicator/numeric",
+      "oid": "5eb3d56aee656f6a0063ad37",
+      "desc": null,
+      "source": "5ebd12102e83340fcc0d4370",
+      "datasource": {
+        "title": "Voicespin",
+        "fullname": "LocalHost/Voicespin",
+        "id": "localhost_aaVOICESPIN",
+        "address": "LocalHost",
+        "database": "aVoicespin"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "value",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "avg([17156-964]) ",
+                  "context": {
+                    "[17156-964]": {
+                      "table": "Calls",
+                      "column": "conv_duration",
+                      "dim": "[Calls.conv_duration]",
+                      "datatype": "numeric",
+                      "title": "conv_duration"
+                    }
+                  },
+                  "title": "AVG Call Duration"
+                },
+                "format": {
+                  "mask": {
+                    "abbreviations": {
+                      "t": false,
+                      "b": false,
+                      "m": false,
+                      "k": false
+                    },
+                    "decimals": 0,
+                    "number": {
+                      "separated": true
+                    }
+                  },
+                  "color": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "secondary",
+            "items": []
+          },
+          {
+            "name": "min",
+            "items": []
+          },
+          {
+            "name": "max",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "indicator",
+      "style": {
+        "subtype": "simple",
+        "skin": "vertical",
+        "components": {
+          "title": {
+            "inactive": false,
+            "enabled": false
+          },
+          "icon": {
+            "inactive": true,
+            "enabled": true
+          },
+          "secondaryTitle": {
+            "inactive": true,
+            "enabled": true
+          }
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": []
+        },
+        "indicator/numeric": {
+          "subtype": "simple",
+          "skin": "vertical",
+          "components": {
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "icon": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        },
+        "indicator/gauge": {
+          "subtype": "round",
+          "skin": "1",
+          "components": {
+            "ticks": {
+              "inactive": false,
+              "enabled": true
+            },
+            "labels": {
+              "inactive": false,
+              "enabled": true
+            },
+            "title": {
+              "inactive": false,
+              "enabled": true
+            },
+            "secondaryTitle": {
+              "inactive": true,
+              "enabled": true
+            }
+          }
+        }
+      },
+      "instanceid": "9D126-A69B-3B",
+      "queryStartTime": "2020-05-07T17:17:57",
+      "widgetTimingLoged": false,
+      "custom": {
+        "barcolumnchart": {
+          "type": "indicator",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 3,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": false,
+        "disallowSelector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "supportsHierarchies": false
+      },
+      "dashboardid": "5eb15b25846295228cb5fbfb",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "Agent Analysis",
+      "subtype": "pivot",
+      "oid": "5eb41967ee656f6a0063ae4f",
+      "desc": null,
+      "source": "5ebd12102e83340fcc0d4371",
+      "datasource": {
+        "title": "Voicespin",
+        "fullname": "LocalHost/Voicespin",
+        "id": "localhost_aaVOICESPIN",
+        "address": "LocalHost",
+        "database": "aVoicespin"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Employees",
+                  "column": "full_name_duplicate",
+                  "dim": "[Employees.full_name_duplicate]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Agent"
+                },
+                "field": {
+                  "id": "[Employees.full_name_duplicate]",
+                  "index": 0
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "ext_employee_key",
+                  "dim": "[FXVC_Agent_Stats.ext_employee_key]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "ext_employee_key"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[FXVC_Agent_Stats.ext_employee_key]",
+                  "index": 1
+                }
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "First_CallTime",
+                  "dim": "[FXVC_Agent_Stats.First_CallTime]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "First_CallTime"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.First_CallTime]",
+                  "index": 2
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Last_CallEnd",
+                  "dim": "[FXVC_Agent_Stats.Last_CallEnd]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Last_CallEnd"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Last_CallEnd]",
+                  "index": 3
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Log_Time",
+                  "dim": "[FXVC_Agent_Stats.Log_Time]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Log_Time"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Log_Time]",
+                  "index": 4
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "GrossPhoneTime",
+                  "dim": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "GrossPhoneTime"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                  "index": 5
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "GrossPhoneTime",
+                  "dim": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "GrossPhoneTime"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                  "index": 6
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "NetPhoneTime",
+                  "dim": "[FXVC_Agent_Stats.NetPhoneTime]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "NetPhoneTime"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.NetPhoneTime]",
+                  "index": 7
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Idle_Time",
+                  "dim": "[FXVC_Agent_Stats.Idle_Time]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Idle_Time"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Idle_Time]",
+                  "index": 8
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Time_Active(Gross)",
+                  "dim": "[FXVC_Agent_Stats.Time_Active(Gross)]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Time_Active(Gross)"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Time_Active(Gross)]",
+                  "index": 9
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Outgoing_Calls",
+                  "dim": "[FXVC_Agent_Stats.Outgoing_Calls]",
+                  "datatype": "numeric",
+                  "title": "Outgoing_Calls"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Outgoing_Calls]",
+                  "index": 10
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Successful_Calls_30s",
+                  "dim": "[FXVC_Agent_Stats.Successful_Calls_30s]",
+                  "datatype": "numeric",
+                  "title": "Successful_Calls_30s"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Successful_Calls_30s]",
+                  "index": 11
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Successful_Calls_90s",
+                  "dim": "[FXVC_Agent_Stats.Successful_Calls_90s]",
+                  "datatype": "numeric",
+                  "title": "Successful_Calls_90s"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Successful_Calls_90s]",
+                  "index": 12
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Success30s%",
+                  "dim": "[FXVC_Agent_Stats.Success30s%]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Success30s%"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Success30s%]",
+                  "index": 13
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Success90s%",
+                  "dim": "[FXVC_Agent_Stats.Success90s%]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Success90s%"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Success90s%]",
+                  "index": 14
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Effective_Calls_3min",
+                  "dim": "[FXVC_Agent_Stats.Effective_Calls_3min]",
+                  "datatype": "numeric",
+                  "title": "Effective_Calls_3min"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Effective_Calls_3min]",
+                  "index": 15
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Effective_Calls_5min",
+                  "dim": "[FXVC_Agent_Stats.Effective_Calls_5min]",
+                  "datatype": "numeric",
+                  "title": "Effective_Calls_5min"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Effective_Calls_5min]",
+                  "index": 16
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Effective_Calls_8.5min",
+                  "dim": "[FXVC_Agent_Stats.Effective_Calls_8.5min]",
+                  "datatype": "numeric",
+                  "title": "Effective_Calls_8.5min"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Effective_Calls_8.5min]",
+                  "index": 17
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Effective5min%",
+                  "dim": "[FXVC_Agent_Stats.Effective5min%]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Effective5min%"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Effective5min%]",
+                  "index": 18
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "FXVC_Agent_Stats",
+                  "column": "Effective8.5min%",
+                  "dim": "[FXVC_Agent_Stats.Effective8.5min%]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Effective8.5min%"
+                },
+                "field": {
+                  "id": "[FXVC_Agent_Stats.Effective8.5min%]",
+                  "index": 19
+                },
+                "panel": "rows"
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": []
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "type": "pivot2",
+      "style": {
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": true,
+          "headers": true,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "agent",
+              "title": "Agent",
+              "singular": "Agent",
+              "plural": "Agent"
+            },
+            {
+              "id": "first_calltime",
+              "title": "First_CallTime",
+              "singular": "First_CallTime",
+              "plural": "First_CallTime"
+            },
+            {
+              "id": "last_callend",
+              "title": "Last_CallEnd",
+              "singular": "Last_CallEnd",
+              "plural": "Last_CallEnd"
+            },
+            {
+              "id": "log_time",
+              "title": "Log_Time",
+              "singular": "Log_Time",
+              "plural": "Log_Time"
+            },
+            {
+              "id": "grossphonetime",
+              "title": "GrossPhoneTime",
+              "singular": "GrossPhoneTime",
+              "plural": "GrossPhoneTime"
+            },
+            {
+              "id": "netphonetime",
+              "title": "NetPhoneTime",
+              "singular": "NetPhoneTime",
+              "plural": "NetPhoneTime"
+            },
+            {
+              "id": "idle_time",
+              "title": "Idle_Time",
+              "singular": "Idle_Time",
+              "plural": "Idle_Time"
+            },
+            {
+              "id": "time_active(gross)",
+              "title": "Time_Active(Gross)",
+              "singular": "Time_Active(Gross)",
+              "plural": "Time_Active(Gross)"
+            },
+            {
+              "id": "outgoing_calls",
+              "title": "Outgoing_Calls",
+              "singular": "Outgoing_Calls",
+              "plural": "Outgoing_Calls"
+            },
+            {
+              "id": "successful_calls_30s",
+              "title": "Successful_Calls_30s",
+              "singular": "Successful_Calls_30s",
+              "plural": "Successful_Calls_30s"
+            },
+            {
+              "id": "successful_calls_90s",
+              "title": "Successful_Calls_90s",
+              "singular": "Successful_Calls_90s",
+              "plural": "Successful_Calls_90s"
+            },
+            {
+              "id": "success30s%",
+              "title": "Success30s%",
+              "singular": "Success30s%",
+              "plural": "Success30s%"
+            },
+            {
+              "id": "success90s%",
+              "title": "Success90s%",
+              "singular": "Success90s%",
+              "plural": "Success90s%"
+            },
+            {
+              "id": "effective_calls_3min",
+              "title": "Effective_Calls_3min",
+              "singular": "Effective_Calls_3min",
+              "plural": "Effective_Calls_3min"
+            },
+            {
+              "id": "effective_calls_5min",
+              "title": "Effective_Calls_5min",
+              "singular": "Effective_Calls_5min",
+              "plural": "Effective_Calls_5min"
+            },
+            {
+              "id": "effective_calls_8.5min",
+              "title": "Effective_Calls_8.5min",
+              "singular": "Effective_Calls_8.5min",
+              "plural": "Effective_Calls_8.5min"
+            },
+            {
+              "id": "effective5min%",
+              "title": "Effective5min%",
+              "singular": "Effective5min%",
+              "plural": "Effective5min%"
+            },
+            {
+              "id": "effective8.5min%",
+              "title": "Effective8.5min%",
+              "singular": "Effective8.5min%",
+              "plural": "Effective8.5min%"
+            },
+            {
+              "id": "ext_employee_key",
+              "title": "ext_employee_key",
+              "singular": "ext_employee_key",
+              "plural": "ext_employee_key"
+            }
+          ]
+        },
+        "scroll": false
+      },
+      "instanceid": "31F90-248E-DC",
+      "queryStartTime": "2021-12-10T10:14:46",
+      "widgetTimingLoged": false,
+      "drawing": true,
+      "custom": {
+        "barcolumnchart": {
+          "type": "pivot2",
+          "isTypeValid": false,
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total"
+        }
+      },
+      "displayMenu": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "autoUpdateOnEveryChange": true,
+        "limitFilters": {},
+        "queryStats": {
+          "measures": [
+            {
+              "jaql": {
+                "formula": "0",
+                "type": "measure"
+              },
+              "panel": "measures",
+              "handlers": []
+            }
+          ],
+          "dimensions": [
+            {
+              "jaql": {
+                "table": "Employees",
+                "column": "full_name_duplicate",
+                "dim": "[Employees.full_name_duplicate]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Agent"
+              },
+              "field": {
+                "id": "[Employees.full_name_duplicate]",
+                "index": 0
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Calls",
+                "column": "agent_num",
+                "dim": "[Calls.agent_num]",
+                "datatype": "text",
+                "merged": true,
+                "title": "ext"
+              },
+              "field": {
+                "id": "[Calls.agent_num]",
+                "index": 1
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "First_CallTime",
+                "dim": "[FXVC_Agent_Stats.First_CallTime]",
+                "datatype": "text",
+                "merged": true,
+                "title": "First_CallTime"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.First_CallTime]",
+                "index": 3
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Last_CallEnd",
+                "dim": "[FXVC_Agent_Stats.Last_CallEnd]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Last_CallEnd"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Last_CallEnd]",
+                "index": 4
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Log_Time",
+                "dim": "[FXVC_Agent_Stats.Log_Time]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Log_Time"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Log_Time]",
+                "index": 5
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "GrossPhoneTime",
+                "dim": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "datatype": "text",
+                "merged": true,
+                "title": "GrossPhoneTime"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "index": 6
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "GrossPhoneTime",
+                "dim": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "datatype": "text",
+                "merged": true,
+                "title": "GrossPhoneTime"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "index": 7
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Idle_Time",
+                "dim": "[FXVC_Agent_Stats.Idle_Time]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Idle_Time"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Idle_Time]",
+                "index": 8
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Time_Active(Gross)",
+                "dim": "[FXVC_Agent_Stats.Time_Active(Gross)]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Time_Active(Gross)"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Time_Active(Gross)]",
+                "index": 9
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Outgoing_Calls",
+                "dim": "[FXVC_Agent_Stats.Outgoing_Calls]",
+                "datatype": "numeric",
+                "title": "Outgoing_Calls"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Outgoing_Calls]",
+                "index": 10
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Successful_Calls_30s",
+                "dim": "[FXVC_Agent_Stats.Successful_Calls_30s]",
+                "datatype": "numeric",
+                "title": "Successful_Calls_30s"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Successful_Calls_30s]",
+                "index": 11
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Successful_Calls_90s",
+                "dim": "[FXVC_Agent_Stats.Successful_Calls_90s]",
+                "datatype": "numeric",
+                "title": "Successful_Calls_90s"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Successful_Calls_90s]",
+                "index": 12
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Success30s%",
+                "dim": "[FXVC_Agent_Stats.Success30s%]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Success30s%"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Success30s%]",
+                "index": 13
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Success90s%",
+                "dim": "[FXVC_Agent_Stats.Success90s%]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Success90s%"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Success90s%]",
+                "index": 14
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective_Calls_3min",
+                "dim": "[FXVC_Agent_Stats.Effective_Calls_3min]",
+                "datatype": "numeric",
+                "title": "Effective_Calls_3min"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective_Calls_3min]",
+                "index": 15
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective_Calls_5min",
+                "dim": "[FXVC_Agent_Stats.Effective_Calls_5min]",
+                "datatype": "numeric",
+                "title": "Effective_Calls_5min"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective_Calls_5min]",
+                "index": 16
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective_Calls_8.5min",
+                "dim": "[FXVC_Agent_Stats.Effective_Calls_8.5min]",
+                "datatype": "numeric",
+                "title": "Effective_Calls_8.5min"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective_Calls_8.5min]",
+                "index": 17
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective5min%",
+                "dim": "[FXVC_Agent_Stats.Effective5min%]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Effective5min%"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective5min%]",
+                "index": 18
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective8.5min%",
+                "dim": "[FXVC_Agent_Stats.Effective8.5min%]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Effective8.5min%"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective8.5min%]",
+                "index": 19
+              },
+              "panel": "rows",
+              "handlers": []
+            }
+          ],
+          "filteredDimensions": [
+            {
+              "jaql": {
+                "table": "DW_DimDate",
+                "column": "Full_Date",
+                "dim": "[DW_DimDate.Full_Date (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "title": "Days in Full_Date",
+                "level": "days",
+                "collapsed": true,
+                "datasource": {
+                  "title": "Voicespin",
+                  "fullname": "LocalHost/Voicespin",
+                  "id": "aLOCALHOST_aVOICESPIN",
+                  "address": "LocalHost",
+                  "database": "aVoicespin"
+                }
+              },
+              "disabled": false,
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Calls",
+                "column": "site_name",
+                "dim": "[Calls.site_name]",
+                "datatype": "text",
+                "merged": true,
+                "title": "site_name",
+                "collapsed": true,
+                "datasource": {
+                  "title": "Voicespin",
+                  "fullname": "LocalHost/Voicespin",
+                  "id": "aLOCALHOST_aVOICESPIN",
+                  "address": "LocalHost",
+                  "database": "aVoicespin"
+                }
+              },
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Employees",
+                "column": "branch_name",
+                "dim": "[Employees.branch_name]",
+                "datatype": "text",
+                "merged": true,
+                "title": "branch_name",
+                "collapsed": true,
+                "datasource": {
+                  "title": "Voicespin",
+                  "fullname": "LocalHost/Voicespin",
+                  "id": "aLOCALHOST_aVOICESPIN",
+                  "address": "LocalHost",
+                  "database": "aVoicespin"
+                }
+              },
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Employees",
+                "column": "team_name",
+                "dim": "[Employees.team_name]",
+                "datatype": "text",
+                "merged": true,
+                "title": "team_name",
+                "datasource": {
+                  "title": "Voicespin",
+                  "fullname": "LocalHost/Voicespin",
+                  "id": "aLOCALHOST_aVOICESPIN",
+                  "address": "LocalHost",
+                  "database": "aVoicespin"
+                },
+                "collapsed": true
+              },
+              "isCascading": false,
+              "panel": "scope"
+            }
+          ],
+          "filters": [
+            {
+              "jaql": {
+                "table": "DW_DimDate",
+                "column": "Full_Date",
+                "dim": "[DW_DimDate.Full_Date (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "title": "Days in Full_Date",
+                "level": "days",
+                "collapsed": true,
+                "datasource": {
+                  "title": "Voicespin",
+                  "fullname": "LocalHost/Voicespin",
+                  "id": "aLOCALHOST_aVOICESPIN",
+                  "address": "LocalHost",
+                  "database": "aVoicespin"
+                },
+                "filter": {
+                  "from": "2020-05-05",
+                  "to": "2020-05-05"
+                }
+              },
+              "disabled": false,
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Calls",
+                "column": "site_name",
+                "dim": "[Calls.site_name]",
+                "datatype": "text",
+                "merged": true,
+                "title": "site_name",
+                "collapsed": true,
+                "datasource": {
+                  "title": "Voicespin",
+                  "fullname": "LocalHost/Voicespin",
+                  "id": "aLOCALHOST_aVOICESPIN",
+                  "address": "LocalHost",
+                  "database": "aVoicespin"
+                },
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "FXVC"
+                  ]
+                }
+              },
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Employees",
+                "column": "branch_name",
+                "dim": "[Employees.branch_name]",
+                "datatype": "text",
+                "merged": true,
+                "title": "branch_name",
+                "collapsed": true,
+                "datasource": {
+                  "title": "Voicespin",
+                  "fullname": "LocalHost/Voicespin",
+                  "id": "aLOCALHOST_aVOICESPIN",
+                  "address": "LocalHost",
+                  "database": "aVoicespin"
+                },
+                "filter": {
+                  "explicit": false,
+                  "multiSelection": true,
+                  "all": true
+                }
+              },
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Employees",
+                "column": "team_name",
+                "dim": "[Employees.team_name]",
+                "datatype": "text",
+                "merged": true,
+                "title": "team_name",
+                "datasource": {
+                  "title": "Voicespin",
+                  "fullname": "LocalHost/Voicespin",
+                  "id": "aLOCALHOST_aVOICESPIN",
+                  "address": "LocalHost",
+                  "database": "aVoicespin"
+                },
+                "collapsed": true,
+                "filter": {
+                  "explicit": false,
+                  "multiSelection": true,
+                  "all": true
+                }
+              },
+              "isCascading": false,
+              "panel": "scope"
+            }
+          ],
+          "dateDimensions": [],
+          "numericDimensions": [
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Outgoing_Calls",
+                "dim": "[FXVC_Agent_Stats.Outgoing_Calls]",
+                "datatype": "numeric",
+                "title": "Outgoing_Calls"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Outgoing_Calls]",
+                "index": 10
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Successful_Calls_30s",
+                "dim": "[FXVC_Agent_Stats.Successful_Calls_30s]",
+                "datatype": "numeric",
+                "title": "Successful_Calls_30s"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Successful_Calls_30s]",
+                "index": 11
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Successful_Calls_90s",
+                "dim": "[FXVC_Agent_Stats.Successful_Calls_90s]",
+                "datatype": "numeric",
+                "title": "Successful_Calls_90s"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Successful_Calls_90s]",
+                "index": 12
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective_Calls_3min",
+                "dim": "[FXVC_Agent_Stats.Effective_Calls_3min]",
+                "datatype": "numeric",
+                "title": "Effective_Calls_3min"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective_Calls_3min]",
+                "index": 15
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective_Calls_5min",
+                "dim": "[FXVC_Agent_Stats.Effective_Calls_5min]",
+                "datatype": "numeric",
+                "title": "Effective_Calls_5min"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective_Calls_5min]",
+                "index": 16
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective_Calls_8.5min",
+                "dim": "[FXVC_Agent_Stats.Effective_Calls_8.5min]",
+                "datatype": "numeric",
+                "title": "Effective_Calls_8.5min"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective_Calls_8.5min]",
+                "index": 17
+              },
+              "panel": "rows",
+              "handlers": []
+            }
+          ],
+          "textDimensions": [
+            {
+              "jaql": {
+                "table": "Employees",
+                "column": "full_name_duplicate",
+                "dim": "[Employees.full_name_duplicate]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Agent"
+              },
+              "field": {
+                "id": "[Employees.full_name_duplicate]",
+                "index": 0
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Calls",
+                "column": "agent_num",
+                "dim": "[Calls.agent_num]",
+                "datatype": "text",
+                "merged": true,
+                "title": "ext"
+              },
+              "field": {
+                "id": "[Calls.agent_num]",
+                "index": 1
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "First_CallTime",
+                "dim": "[FXVC_Agent_Stats.First_CallTime]",
+                "datatype": "text",
+                "merged": true,
+                "title": "First_CallTime"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.First_CallTime]",
+                "index": 3
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Last_CallEnd",
+                "dim": "[FXVC_Agent_Stats.Last_CallEnd]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Last_CallEnd"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Last_CallEnd]",
+                "index": 4
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Log_Time",
+                "dim": "[FXVC_Agent_Stats.Log_Time]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Log_Time"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Log_Time]",
+                "index": 5
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "GrossPhoneTime",
+                "dim": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "datatype": "text",
+                "merged": true,
+                "title": "GrossPhoneTime"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "index": 6
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "GrossPhoneTime",
+                "dim": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "datatype": "text",
+                "merged": true,
+                "title": "GrossPhoneTime"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "index": 7
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Idle_Time",
+                "dim": "[FXVC_Agent_Stats.Idle_Time]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Idle_Time"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Idle_Time]",
+                "index": 8
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Time_Active(Gross)",
+                "dim": "[FXVC_Agent_Stats.Time_Active(Gross)]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Time_Active(Gross)"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Time_Active(Gross)]",
+                "index": 9
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Success30s%",
+                "dim": "[FXVC_Agent_Stats.Success30s%]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Success30s%"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Success30s%]",
+                "index": 13
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Success90s%",
+                "dim": "[FXVC_Agent_Stats.Success90s%]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Success90s%"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Success90s%]",
+                "index": 14
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective5min%",
+                "dim": "[FXVC_Agent_Stats.Effective5min%]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Effective5min%"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective5min%]",
+                "index": 18
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "FXVC_Agent_Stats",
+                "column": "Effective8.5min%",
+                "dim": "[FXVC_Agent_Stats.Effective8.5min%]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Effective8.5min%"
+              },
+              "field": {
+                "id": "[FXVC_Agent_Stats.Effective8.5min%]",
+                "index": 19
+              },
+              "panel": "rows",
+              "handlers": []
+            }
+          ],
+          "rawResult": {
+            "datasource": {
+              "fullname": "LocalHost/Voicespin",
+              "revisionId": "f7041fb3-4f59-4a62-8585-a29eefdc7ce1"
+            },
+            "table": "<table id=\"pivot_\" class=\"\" cellspacing=\"0\" cellpadding=\"0\" pager=\"{&quot;visibleRows&quot;:27,&quot;rowsPerPage&quot;:25,&quot;page&quot;:0,&quot;totalPages&quot;:2,&quot;totalRows&quot;:27,&quot;rowsInCurrentPage&quot;:25,&quot;enabled&quot;:true}\" border=\"0\">  <thead>    <tr id=\"pivot__ACCRowArea\">      <td class=\"p-dim-head\" fIdx=\"0\" rowspan=\"1\">Agent</td>      <td class=\"p-dim-head\" fIdx=\"1\" rowspan=\"1\">ext</td>      <td class=\"p-dim-head\" fIdx=\"2\" rowspan=\"1\">First_CallTime</td>      <td class=\"p-dim-head\" fIdx=\"3\" rowspan=\"1\">Last_CallEnd</td>      <td class=\"p-dim-head\" fIdx=\"4\" rowspan=\"1\">Log_Time</td>      <td class=\"p-dim-head\" fIdx=\"5\" rowspan=\"1\">GrossPhoneTime</td>      <td class=\"p-dim-head\" fIdx=\"6\" rowspan=\"1\">GrossPhoneTime</td>      <td class=\"p-dim-head\" fIdx=\"7\" rowspan=\"1\">Idle_Time</td>      <td class=\"p-dim-head\" fIdx=\"8\" rowspan=\"1\">Time_Active(Gross)</td>      <td class=\"p-dim-head\" fIdx=\"9\" rowspan=\"1\">Outgoing_Calls</td>      <td class=\"p-dim-head\" fIdx=\"10\" rowspan=\"1\">Successful_Calls_30s</td>      <td class=\"p-dim-head\" fIdx=\"11\" rowspan=\"1\">Successful_Calls_90s</td>      <td class=\"p-dim-head\" fIdx=\"12\" rowspan=\"1\">Success30s%</td>      <td class=\"p-dim-head\" fIdx=\"13\" rowspan=\"1\">Success90s%</td>      <td class=\"p-dim-head\" fIdx=\"14\" rowspan=\"1\">Effective_Calls_3min</td>      <td class=\"p-dim-head\" fIdx=\"15\" rowspan=\"1\">Effective_Calls_5min</td>      <td class=\"p-dim-head\" fIdx=\"16\" rowspan=\"1\">Effective_Calls_8.5min</td>      <td class=\"p-dim-head\" fIdx=\"17\" rowspan=\"1\">Effective5min%</td>      <td class=\"p-dim-head\" fIdx=\"18\" rowspan=\"1\">Effective8.5min%</td>      <td id=\"pivot__C0\" class=\"p-grand-total-head p-first-data-col\" fIdx=\"19\" isNull=\"true\"></td>    </tr>  </thead>  <tbody>    <tr>      <td id=\"pivot__R0\" class=\"p-dim-member\" fIdx=\"0\">Alessandra Pletea</td>      <td id=\"pivot__R1\" class=\"p-dim-member\" fIdx=\"1\">2092</td>      <td id=\"pivot__R2\" class=\"p-dim-member\" fIdx=\"2\">12:02:59</td>      <td id=\"pivot__R3\" class=\"p-dim-member\" fIdx=\"3\">19:28:41</td>      <td id=\"pivot__R4\" class=\"p-dim-member\" fIdx=\"4\">07:25:42</td>      <td id=\"pivot__R5\" class=\"p-dim-member\" fIdx=\"5\">01:11:59</td>      <td id=\"pivot__R6\" class=\"p-dim-member\" fIdx=\"6\">01:11:59</td>      <td id=\"pivot__R7\" class=\"p-dim-member\" fIdx=\"7\">06:13:43</td>      <td id=\"pivot__R8\" class=\"p-dim-member\" fIdx=\"8\">15%</td>      <td id=\"pivot__R9\" class=\"p-dim-member\" fIdx=\"9\">33</td>      <td id=\"pivot__R10\" class=\"p-dim-member\" fIdx=\"10\">20</td>      <td id=\"pivot__R11\" class=\"p-dim-member\" fIdx=\"11\">18</td>      <td id=\"pivot__R12\" class=\"p-dim-member\" fIdx=\"12\">60%</td>      <td id=\"pivot__R13\" class=\"p-dim-member\" fIdx=\"13\">54%</td>      <td id=\"pivot__R14\" class=\"p-dim-member\" fIdx=\"14\">5</td>      <td id=\"pivot__R15\" class=\"p-dim-member\" fIdx=\"15\">3</td>      <td id=\"pivot__R16\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R17\" class=\"p-dim-member\" fIdx=\"17\">9%</td>      <td id=\"pivot__R18\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">0%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R19\" class=\"p-dim-member\" fIdx=\"0\">Alexis Skouros</td>      <td id=\"pivot__R20\" class=\"p-dim-member\" fIdx=\"1\">2020</td>      <td id=\"pivot__R21\" class=\"p-dim-member\" fIdx=\"2\">12:33:11</td>      <td id=\"pivot__R22\" class=\"p-dim-member\" fIdx=\"3\">20:40:02</td>      <td id=\"pivot__R23\" class=\"p-dim-member\" fIdx=\"4\">08:06:51</td>      <td id=\"pivot__R24\" class=\"p-dim-member\" fIdx=\"5\">00:34:47</td>      <td id=\"pivot__R25\" class=\"p-dim-member\" fIdx=\"6\">00:34:47</td>      <td id=\"pivot__R26\" class=\"p-dim-member\" fIdx=\"7\">07:32:04</td>      <td id=\"pivot__R27\" class=\"p-dim-member\" fIdx=\"8\">4%</td>      <td id=\"pivot__R28\" class=\"p-dim-member\" fIdx=\"9\">43</td>      <td id=\"pivot__R29\" class=\"p-dim-member\" fIdx=\"10\">6</td>      <td id=\"pivot__R30\" class=\"p-dim-member\" fIdx=\"11\">4</td>      <td id=\"pivot__R31\" class=\"p-dim-member\" fIdx=\"12\">13%</td>      <td id=\"pivot__R32\" class=\"p-dim-member\" fIdx=\"13\">9%</td>      <td id=\"pivot__R33\" class=\"p-dim-member\" fIdx=\"14\">4</td>      <td id=\"pivot__R34\" class=\"p-dim-member\" fIdx=\"15\">3</td>      <td id=\"pivot__R35\" class=\"p-dim-member\" fIdx=\"16\">1</td>      <td id=\"pivot__R36\" class=\"p-dim-member\" fIdx=\"17\">6%</td>      <td id=\"pivot__R37\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">25%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R38\" class=\"p-dim-member\" fIdx=\"0\">Amir Jamshidipour</td>      <td id=\"pivot__R39\" class=\"p-dim-member\" fIdx=\"1\">2074</td>      <td id=\"pivot__R40\" class=\"p-dim-member\" fIdx=\"2\">12:56:18</td>      <td id=\"pivot__R41\" class=\"p-dim-member\" fIdx=\"3\">12:56:22</td>      <td id=\"pivot__R42\" class=\"p-dim-member\" fIdx=\"4\">00:00:04</td>      <td id=\"pivot__R43\" class=\"p-dim-member\" fIdx=\"5\">00:00:04</td>      <td id=\"pivot__R44\" class=\"p-dim-member\" fIdx=\"6\">00:00:04</td>      <td id=\"pivot__R45\" class=\"p-dim-member\" fIdx=\"7\">00:00:00</td>      <td id=\"pivot__R46\" class=\"p-dim-member\" fIdx=\"8\">100%</td>      <td id=\"pivot__R47\" class=\"p-dim-member\" fIdx=\"9\">1</td>      <td id=\"pivot__R48\" class=\"p-dim-member\" fIdx=\"10\">0</td>      <td id=\"pivot__R49\" class=\"p-dim-member\" fIdx=\"11\">0</td>      <td id=\"pivot__R50\" class=\"p-dim-member\" fIdx=\"12\">0%</td>      <td id=\"pivot__R51\" class=\"p-dim-member\" fIdx=\"13\">0%</td>      <td id=\"pivot__R52\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R53\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R54\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R55\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R56\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\" isNull=\"true\"></td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R57\" class=\"p-dim-member\" fIdx=\"0\">Andreas Komodikis</td>      <td id=\"pivot__R58\" class=\"p-dim-member\" fIdx=\"1\">2064</td>      <td id=\"pivot__R59\" class=\"p-dim-member\" fIdx=\"2\">10:01:19</td>      <td id=\"pivot__R60\" class=\"p-dim-member\" fIdx=\"3\">17:56:31</td>      <td id=\"pivot__R61\" class=\"p-dim-member\" fIdx=\"4\">07:55:12</td>      <td id=\"pivot__R62\" class=\"p-dim-member\" fIdx=\"5\">00:03:27</td>      <td id=\"pivot__R63\" class=\"p-dim-member\" fIdx=\"6\">00:03:27</td>      <td id=\"pivot__R64\" class=\"p-dim-member\" fIdx=\"7\">07:51:45</td>      <td id=\"pivot__R65\" class=\"p-dim-member\" fIdx=\"8\">0%</td>      <td id=\"pivot__R66\" class=\"p-dim-member\" fIdx=\"9\">8</td>      <td id=\"pivot__R67\" class=\"p-dim-member\" fIdx=\"10\">1</td>      <td id=\"pivot__R68\" class=\"p-dim-member\" fIdx=\"11\">0</td>      <td id=\"pivot__R69\" class=\"p-dim-member\" fIdx=\"12\">12%</td>      <td id=\"pivot__R70\" class=\"p-dim-member\" fIdx=\"13\">0%</td>      <td id=\"pivot__R71\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R72\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R73\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R74\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R75\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\" isNull=\"true\"></td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R76\" class=\"p-dim-member\" fIdx=\"0\">Andreas Vasileiou</td>      <td id=\"pivot__R77\" class=\"p-dim-member\" fIdx=\"1\">2016</td>      <td id=\"pivot__R78\" class=\"p-dim-member\" fIdx=\"2\">16:17:33</td>      <td id=\"pivot__R79\" class=\"p-dim-member\" fIdx=\"3\">20:15:09</td>      <td id=\"pivot__R80\" class=\"p-dim-member\" fIdx=\"4\">03:57:36</td>      <td id=\"pivot__R81\" class=\"p-dim-member\" fIdx=\"5\">01:03:56</td>      <td id=\"pivot__R82\" class=\"p-dim-member\" fIdx=\"6\">01:03:56</td>      <td id=\"pivot__R83\" class=\"p-dim-member\" fIdx=\"7\">02:53:40</td>      <td id=\"pivot__R84\" class=\"p-dim-member\" fIdx=\"8\">29%</td>      <td id=\"pivot__R85\" class=\"p-dim-member\" fIdx=\"9\">4</td>      <td id=\"pivot__R86\" class=\"p-dim-member\" fIdx=\"10\">2</td>      <td id=\"pivot__R87\" class=\"p-dim-member\" fIdx=\"11\">2</td>      <td id=\"pivot__R88\" class=\"p-dim-member\" fIdx=\"12\">50%</td>      <td id=\"pivot__R89\" class=\"p-dim-member\" fIdx=\"13\">50%</td>      <td id=\"pivot__R90\" class=\"p-dim-member\" fIdx=\"14\">2</td>      <td id=\"pivot__R91\" class=\"p-dim-member\" fIdx=\"15\">2</td>      <td id=\"pivot__R92\" class=\"p-dim-member\" fIdx=\"16\">1</td>      <td id=\"pivot__R93\" class=\"p-dim-member\" fIdx=\"17\">50%</td>      <td id=\"pivot__R94\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">50%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R95\" class=\"p-dim-member\" fIdx=\"0\">Bill Daniel</td>      <td id=\"pivot__R96\" class=\"p-dim-member\" fIdx=\"1\">2090</td>      <td id=\"pivot__R97\" class=\"p-dim-member\" fIdx=\"2\">10:38:33</td>      <td id=\"pivot__R98\" class=\"p-dim-member\" fIdx=\"3\">19:57:26</td>      <td id=\"pivot__R99\" class=\"p-dim-member\" fIdx=\"4\">09:18:53</td>      <td id=\"pivot__R100\" class=\"p-dim-member\" fIdx=\"5\">04:27:54</td>      <td id=\"pivot__R101\" class=\"p-dim-member\" fIdx=\"6\">04:27:54</td>      <td id=\"pivot__R102\" class=\"p-dim-member\" fIdx=\"7\">04:50:59</td>      <td id=\"pivot__R103\" class=\"p-dim-member\" fIdx=\"8\">47%</td>      <td id=\"pivot__R104\" class=\"p-dim-member\" fIdx=\"9\">79</td>      <td id=\"pivot__R105\" class=\"p-dim-member\" fIdx=\"10\">20</td>      <td id=\"pivot__R106\" class=\"p-dim-member\" fIdx=\"11\">14</td>      <td id=\"pivot__R107\" class=\"p-dim-member\" fIdx=\"12\">25%</td>      <td id=\"pivot__R108\" class=\"p-dim-member\" fIdx=\"13\">17%</td>      <td id=\"pivot__R109\" class=\"p-dim-member\" fIdx=\"14\">11</td>      <td id=\"pivot__R110\" class=\"p-dim-member\" fIdx=\"15\">11</td>      <td id=\"pivot__R111\" class=\"p-dim-member\" fIdx=\"16\">11</td>      <td id=\"pivot__R112\" class=\"p-dim-member\" fIdx=\"17\">13%</td>      <td id=\"pivot__R113\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">78%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R114\" class=\"p-dim-member\" fIdx=\"0\">Christopher Smilas</td>      <td id=\"pivot__R115\" class=\"p-dim-member\" fIdx=\"1\">2080</td>      <td id=\"pivot__R116\" class=\"p-dim-member\" fIdx=\"2\">11:30:40</td>      <td id=\"pivot__R117\" class=\"p-dim-member\" fIdx=\"3\">19:56:53</td>      <td id=\"pivot__R118\" class=\"p-dim-member\" fIdx=\"4\">08:26:13</td>      <td id=\"pivot__R119\" class=\"p-dim-member\" fIdx=\"5\">04:40:07</td>      <td id=\"pivot__R120\" class=\"p-dim-member\" fIdx=\"6\">04:40:07</td>      <td id=\"pivot__R121\" class=\"p-dim-member\" fIdx=\"7\">03:46:06</td>      <td id=\"pivot__R122\" class=\"p-dim-member\" fIdx=\"8\">53%</td>      <td id=\"pivot__R123\" class=\"p-dim-member\" fIdx=\"9\">29</td>      <td id=\"pivot__R124\" class=\"p-dim-member\" fIdx=\"10\">23</td>      <td id=\"pivot__R125\" class=\"p-dim-member\" fIdx=\"11\">20</td>      <td id=\"pivot__R126\" class=\"p-dim-member\" fIdx=\"12\">79%</td>      <td id=\"pivot__R127\" class=\"p-dim-member\" fIdx=\"13\">68%</td>      <td id=\"pivot__R128\" class=\"p-dim-member\" fIdx=\"14\">19</td>      <td id=\"pivot__R129\" class=\"p-dim-member\" fIdx=\"15\">15</td>      <td id=\"pivot__R130\" class=\"p-dim-member\" fIdx=\"16\">12</td>      <td id=\"pivot__R131\" class=\"p-dim-member\" fIdx=\"17\">51%</td>      <td id=\"pivot__R132\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">60%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R133\" class=\"p-dim-member\" fIdx=\"0\">Constantinos Nikita</td>      <td id=\"pivot__R134\" class=\"p-dim-member\" fIdx=\"1\">2050</td>      <td id=\"pivot__R135\" class=\"p-dim-member\" fIdx=\"2\">11:03:32</td>      <td id=\"pivot__R136\" class=\"p-dim-member\" fIdx=\"3\">19:54:08</td>      <td id=\"pivot__R137\" class=\"p-dim-member\" fIdx=\"4\">08:50:36</td>      <td id=\"pivot__R138\" class=\"p-dim-member\" fIdx=\"5\">05:04:17</td>      <td id=\"pivot__R139\" class=\"p-dim-member\" fIdx=\"6\">05:04:17</td>      <td id=\"pivot__R140\" class=\"p-dim-member\" fIdx=\"7\">03:46:19</td>      <td id=\"pivot__R141\" class=\"p-dim-member\" fIdx=\"8\">59%</td>      <td id=\"pivot__R142\" class=\"p-dim-member\" fIdx=\"9\">94</td>      <td id=\"pivot__R143\" class=\"p-dim-member\" fIdx=\"10\">27</td>      <td id=\"pivot__R144\" class=\"p-dim-member\" fIdx=\"11\">23</td>      <td id=\"pivot__R145\" class=\"p-dim-member\" fIdx=\"12\">28%</td>      <td id=\"pivot__R146\" class=\"p-dim-member\" fIdx=\"13\">24%</td>      <td id=\"pivot__R147\" class=\"p-dim-member\" fIdx=\"14\">20</td>      <td id=\"pivot__R148\" class=\"p-dim-member\" fIdx=\"15\">13</td>      <td id=\"pivot__R149\" class=\"p-dim-member\" fIdx=\"16\">11</td>      <td id=\"pivot__R150\" class=\"p-dim-member\" fIdx=\"17\">13%</td>      <td id=\"pivot__R151\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">47%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R152\" class=\"p-dim-member\" fIdx=\"0\">Costas Elia</td>      <td id=\"pivot__R153\" class=\"p-dim-member\" fIdx=\"1\">2040</td>      <td id=\"pivot__R154\" class=\"p-dim-member\" fIdx=\"2\">13:37:02</td>      <td id=\"pivot__R155\" class=\"p-dim-member\" fIdx=\"3\">20:54:08</td>      <td id=\"pivot__R156\" class=\"p-dim-member\" fIdx=\"4\">07:17:06</td>      <td id=\"pivot__R157\" class=\"p-dim-member\" fIdx=\"5\">00:02:47</td>      <td id=\"pivot__R158\" class=\"p-dim-member\" fIdx=\"6\">00:02:47</td>      <td id=\"pivot__R159\" class=\"p-dim-member\" fIdx=\"7\">07:14:19</td>      <td id=\"pivot__R160\" class=\"p-dim-member\" fIdx=\"8\">0%</td>      <td id=\"pivot__R161\" class=\"p-dim-member\" fIdx=\"9\">6</td>      <td id=\"pivot__R162\" class=\"p-dim-member\" fIdx=\"10\">1</td>      <td id=\"pivot__R163\" class=\"p-dim-member\" fIdx=\"11\">0</td>      <td id=\"pivot__R164\" class=\"p-dim-member\" fIdx=\"12\">16%</td>      <td id=\"pivot__R165\" class=\"p-dim-member\" fIdx=\"13\">0%</td>      <td id=\"pivot__R166\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R167\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R168\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R169\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R170\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\" isNull=\"true\"></td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R171\" class=\"p-dim-member\" fIdx=\"0\">Evagoras Nearchou</td>      <td id=\"pivot__R172\" class=\"p-dim-member\" fIdx=\"1\">2037</td>      <td id=\"pivot__R173\" class=\"p-dim-member\" fIdx=\"2\">12:52:00</td>      <td id=\"pivot__R174\" class=\"p-dim-member\" fIdx=\"3\">12:52:02</td>      <td id=\"pivot__R175\" class=\"p-dim-member\" fIdx=\"4\">00:00:02</td>      <td id=\"pivot__R176\" class=\"p-dim-member\" fIdx=\"5\">00:00:02</td>      <td id=\"pivot__R177\" class=\"p-dim-member\" fIdx=\"6\">00:00:02</td>      <td id=\"pivot__R178\" class=\"p-dim-member\" fIdx=\"7\">00:00:00</td>      <td id=\"pivot__R179\" class=\"p-dim-member\" fIdx=\"8\">100%</td>      <td id=\"pivot__R180\" class=\"p-dim-member\" fIdx=\"9\">1</td>      <td id=\"pivot__R181\" class=\"p-dim-member\" fIdx=\"10\">0</td>      <td id=\"pivot__R182\" class=\"p-dim-member\" fIdx=\"11\">0</td>      <td id=\"pivot__R183\" class=\"p-dim-member\" fIdx=\"12\">0%</td>      <td id=\"pivot__R184\" class=\"p-dim-member\" fIdx=\"13\">0%</td>      <td id=\"pivot__R185\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R186\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R187\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R188\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R189\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\" isNull=\"true\"></td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R190\" class=\"p-dim-member\" fIdx=\"0\">Filippos Ioannou</td>      <td id=\"pivot__R191\" class=\"p-dim-member\" fIdx=\"1\">2109</td>      <td id=\"pivot__R192\" class=\"p-dim-member\" fIdx=\"2\">11:26:05</td>      <td id=\"pivot__R193\" class=\"p-dim-member\" fIdx=\"3\">11:26:36</td>      <td id=\"pivot__R194\" class=\"p-dim-member\" fIdx=\"4\">00:00:31</td>      <td id=\"pivot__R195\" class=\"p-dim-member\" fIdx=\"5\">00:00:31</td>      <td id=\"pivot__R196\" class=\"p-dim-member\" fIdx=\"6\">00:00:31</td>      <td id=\"pivot__R197\" class=\"p-dim-member\" fIdx=\"7\">00:00:00</td>      <td id=\"pivot__R198\" class=\"p-dim-member\" fIdx=\"8\">100%</td>      <td id=\"pivot__R199\" class=\"p-dim-member\" fIdx=\"9\">1</td>      <td id=\"pivot__R200\" class=\"p-dim-member\" fIdx=\"10\">0</td>      <td id=\"pivot__R201\" class=\"p-dim-member\" fIdx=\"11\">0</td>      <td id=\"pivot__R202\" class=\"p-dim-member\" fIdx=\"12\">0%</td>      <td id=\"pivot__R203\" class=\"p-dim-member\" fIdx=\"13\">0%</td>      <td id=\"pivot__R204\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R205\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R206\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R207\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R208\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\" isNull=\"true\"></td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R209\" class=\"p-dim-member\" fIdx=\"0\">Giannos Angelou</td>      <td id=\"pivot__R210\" class=\"p-dim-member\" fIdx=\"1\">2074</td>      <td id=\"pivot__R211\" class=\"p-dim-member\" fIdx=\"2\">12:56:18</td>      <td id=\"pivot__R212\" class=\"p-dim-member\" fIdx=\"3\">12:56:22</td>      <td id=\"pivot__R213\" class=\"p-dim-member\" fIdx=\"4\">00:00:04</td>      <td id=\"pivot__R214\" class=\"p-dim-member\" fIdx=\"5\">00:00:04</td>      <td id=\"pivot__R215\" class=\"p-dim-member\" fIdx=\"6\">00:00:04</td>      <td id=\"pivot__R216\" class=\"p-dim-member\" fIdx=\"7\">00:00:00</td>      <td id=\"pivot__R217\" class=\"p-dim-member\" fIdx=\"8\">100%</td>      <td id=\"pivot__R218\" class=\"p-dim-member\" fIdx=\"9\">1</td>      <td id=\"pivot__R219\" class=\"p-dim-member\" fIdx=\"10\">0</td>      <td id=\"pivot__R220\" class=\"p-dim-member\" fIdx=\"11\">0</td>      <td id=\"pivot__R221\" class=\"p-dim-member\" fIdx=\"12\">0%</td>      <td id=\"pivot__R222\" class=\"p-dim-member\" fIdx=\"13\">0%</td>      <td id=\"pivot__R223\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R224\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R225\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R226\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R227\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\" isNull=\"true\"></td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R228\" class=\"p-dim-member\" fIdx=\"0\">Hagop Kasparian</td>      <td id=\"pivot__R229\" class=\"p-dim-member\" fIdx=\"1\">2106</td>      <td id=\"pivot__R230\" class=\"p-dim-member\" fIdx=\"2\">16:04:13</td>      <td id=\"pivot__R231\" class=\"p-dim-member\" fIdx=\"3\">20:04:37</td>      <td id=\"pivot__R232\" class=\"p-dim-member\" fIdx=\"4\">04:00:24</td>      <td id=\"pivot__R233\" class=\"p-dim-member\" fIdx=\"5\">03:14:09</td>      <td id=\"pivot__R234\" class=\"p-dim-member\" fIdx=\"6\">03:14:09</td>      <td id=\"pivot__R235\" class=\"p-dim-member\" fIdx=\"7\">00:46:15</td>      <td id=\"pivot__R236\" class=\"p-dim-member\" fIdx=\"8\">78%</td>      <td id=\"pivot__R237\" class=\"p-dim-member\" fIdx=\"9\">11</td>      <td id=\"pivot__R238\" class=\"p-dim-member\" fIdx=\"10\">7</td>      <td id=\"pivot__R239\" class=\"p-dim-member\" fIdx=\"11\">6</td>      <td id=\"pivot__R240\" class=\"p-dim-member\" fIdx=\"12\">63%</td>      <td id=\"pivot__R241\" class=\"p-dim-member\" fIdx=\"13\">54%</td>      <td id=\"pivot__R242\" class=\"p-dim-member\" fIdx=\"14\">5</td>      <td id=\"pivot__R243\" class=\"p-dim-member\" fIdx=\"15\">4</td>      <td id=\"pivot__R244\" class=\"p-dim-member\" fIdx=\"16\">4</td>      <td id=\"pivot__R245\" class=\"p-dim-member\" fIdx=\"17\">36%</td>      <td id=\"pivot__R246\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">66%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R247\" class=\"p-dim-member\" fIdx=\"0\">Ioannis Bakogiannis</td>      <td id=\"pivot__R248\" class=\"p-dim-member\" fIdx=\"1\">2104</td>      <td id=\"pivot__R249\" class=\"p-dim-member\" fIdx=\"2\">15:18:44</td>      <td id=\"pivot__R250\" class=\"p-dim-member\" fIdx=\"3\">15:19:13</td>      <td id=\"pivot__R251\" class=\"p-dim-member\" fIdx=\"4\">00:00:29</td>      <td id=\"pivot__R252\" class=\"p-dim-member\" fIdx=\"5\">00:00:29</td>      <td id=\"pivot__R253\" class=\"p-dim-member\" fIdx=\"6\">00:00:29</td>      <td id=\"pivot__R254\" class=\"p-dim-member\" fIdx=\"7\">00:00:00</td>      <td id=\"pivot__R255\" class=\"p-dim-member\" fIdx=\"8\">100%</td>      <td id=\"pivot__R256\" class=\"p-dim-member\" fIdx=\"9\">1</td>      <td id=\"pivot__R257\" class=\"p-dim-member\" fIdx=\"10\">0</td>      <td id=\"pivot__R258\" class=\"p-dim-member\" fIdx=\"11\">0</td>      <td id=\"pivot__R259\" class=\"p-dim-member\" fIdx=\"12\">0%</td>      <td id=\"pivot__R260\" class=\"p-dim-member\" fIdx=\"13\">0%</td>      <td id=\"pivot__R261\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R262\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R263\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R264\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R265\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\" isNull=\"true\"></td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R266\" class=\"p-dim-member\" fIdx=\"0\">James Clappison</td>      <td id=\"pivot__R267\" class=\"p-dim-member\" fIdx=\"1\">2075</td>      <td id=\"pivot__R268\" class=\"p-dim-member\" fIdx=\"2\">13:13:36</td>      <td id=\"pivot__R269\" class=\"p-dim-member\" fIdx=\"3\">22:00:18</td>      <td id=\"pivot__R270\" class=\"p-dim-member\" fIdx=\"4\">08:46:42</td>      <td id=\"pivot__R271\" class=\"p-dim-member\" fIdx=\"5\">01:16:58</td>      <td id=\"pivot__R272\" class=\"p-dim-member\" fIdx=\"6\">01:16:58</td>      <td id=\"pivot__R273\" class=\"p-dim-member\" fIdx=\"7\">07:29:44</td>      <td id=\"pivot__R274\" class=\"p-dim-member\" fIdx=\"8\">14%</td>      <td id=\"pivot__R275\" class=\"p-dim-member\" fIdx=\"9\">7</td>      <td id=\"pivot__R276\" class=\"p-dim-member\" fIdx=\"10\">4</td>      <td id=\"pivot__R277\" class=\"p-dim-member\" fIdx=\"11\">3</td>      <td id=\"pivot__R278\" class=\"p-dim-member\" fIdx=\"12\">57%</td>      <td id=\"pivot__R279\" class=\"p-dim-member\" fIdx=\"13\">42%</td>      <td id=\"pivot__R280\" class=\"p-dim-member\" fIdx=\"14\">3</td>      <td id=\"pivot__R281\" class=\"p-dim-member\" fIdx=\"15\">2</td>      <td id=\"pivot__R282\" class=\"p-dim-member\" fIdx=\"16\">2</td>      <td id=\"pivot__R283\" class=\"p-dim-member\" fIdx=\"17\">28%</td>      <td id=\"pivot__R284\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">66%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R285\" class=\"p-dim-member\" fIdx=\"0\">Ken Ayigbe</td>      <td id=\"pivot__R286\" class=\"p-dim-member\" fIdx=\"1\">2057</td>      <td id=\"pivot__R287\" class=\"p-dim-member\" fIdx=\"2\">12:14:56</td>      <td id=\"pivot__R288\" class=\"p-dim-member\" fIdx=\"3\">20:23:23</td>      <td id=\"pivot__R289\" class=\"p-dim-member\" fIdx=\"4\">08:08:27</td>      <td id=\"pivot__R290\" class=\"p-dim-member\" fIdx=\"5\">03:01:59</td>      <td id=\"pivot__R291\" class=\"p-dim-member\" fIdx=\"6\">03:01:59</td>      <td id=\"pivot__R292\" class=\"p-dim-member\" fIdx=\"7\">05:06:28</td>      <td id=\"pivot__R293\" class=\"p-dim-member\" fIdx=\"8\">37%</td>      <td id=\"pivot__R294\" class=\"p-dim-member\" fIdx=\"9\">70</td>      <td id=\"pivot__R295\" class=\"p-dim-member\" fIdx=\"10\">14</td>      <td id=\"pivot__R296\" class=\"p-dim-member\" fIdx=\"11\">7</td>      <td id=\"pivot__R297\" class=\"p-dim-member\" fIdx=\"12\">20%</td>      <td id=\"pivot__R298\" class=\"p-dim-member\" fIdx=\"13\">10%</td>      <td id=\"pivot__R299\" class=\"p-dim-member\" fIdx=\"14\">7</td>      <td id=\"pivot__R300\" class=\"p-dim-member\" fIdx=\"15\">6</td>      <td id=\"pivot__R301\" class=\"p-dim-member\" fIdx=\"16\">5</td>      <td id=\"pivot__R302\" class=\"p-dim-member\" fIdx=\"17\">8%</td>      <td id=\"pivot__R303\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">71%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R304\" class=\"p-dim-member\" fIdx=\"0\">Klea Lambrou</td>      <td id=\"pivot__R305\" class=\"p-dim-member\" fIdx=\"1\">2035</td>      <td id=\"pivot__R306\" class=\"p-dim-member\" fIdx=\"2\">12:10:06</td>      <td id=\"pivot__R307\" class=\"p-dim-member\" fIdx=\"3\">21:04:57</td>      <td id=\"pivot__R308\" class=\"p-dim-member\" fIdx=\"4\">08:54:51</td>      <td id=\"pivot__R309\" class=\"p-dim-member\" fIdx=\"5\">00:07:46</td>      <td id=\"pivot__R310\" class=\"p-dim-member\" fIdx=\"6\">00:07:46</td>      <td id=\"pivot__R311\" class=\"p-dim-member\" fIdx=\"7\">08:47:05</td>      <td id=\"pivot__R312\" class=\"p-dim-member\" fIdx=\"8\">1%</td>      <td id=\"pivot__R313\" class=\"p-dim-member\" fIdx=\"9\">12</td>      <td id=\"pivot__R314\" class=\"p-dim-member\" fIdx=\"10\">1</td>      <td id=\"pivot__R315\" class=\"p-dim-member\" fIdx=\"11\">1</td>      <td id=\"pivot__R316\" class=\"p-dim-member\" fIdx=\"12\">8%</td>      <td id=\"pivot__R317\" class=\"p-dim-member\" fIdx=\"13\">8%</td>      <td id=\"pivot__R318\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R319\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R320\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R321\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R322\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">0%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R323\" class=\"p-dim-member\" fIdx=\"0\">Kostas Kynigos</td>      <td id=\"pivot__R324\" class=\"p-dim-member\" fIdx=\"1\">2014</td>      <td id=\"pivot__R325\" class=\"p-dim-member\" fIdx=\"2\">12:15:27</td>      <td id=\"pivot__R326\" class=\"p-dim-member\" fIdx=\"3\">20:36:41</td>      <td id=\"pivot__R327\" class=\"p-dim-member\" fIdx=\"4\">08:21:14</td>      <td id=\"pivot__R328\" class=\"p-dim-member\" fIdx=\"5\">03:00:28</td>      <td id=\"pivot__R329\" class=\"p-dim-member\" fIdx=\"6\">03:00:28</td>      <td id=\"pivot__R330\" class=\"p-dim-member\" fIdx=\"7\">05:20:46</td>      <td id=\"pivot__R331\" class=\"p-dim-member\" fIdx=\"8\">37%</td>      <td id=\"pivot__R332\" class=\"p-dim-member\" fIdx=\"9\">90</td>      <td id=\"pivot__R333\" class=\"p-dim-member\" fIdx=\"10\">23</td>      <td id=\"pivot__R334\" class=\"p-dim-member\" fIdx=\"11\">9</td>      <td id=\"pivot__R335\" class=\"p-dim-member\" fIdx=\"12\">25%</td>      <td id=\"pivot__R336\" class=\"p-dim-member\" fIdx=\"13\">10%</td>      <td id=\"pivot__R337\" class=\"p-dim-member\" fIdx=\"14\">7</td>      <td id=\"pivot__R338\" class=\"p-dim-member\" fIdx=\"15\">6</td>      <td id=\"pivot__R339\" class=\"p-dim-member\" fIdx=\"16\">6</td>      <td id=\"pivot__R340\" class=\"p-dim-member\" fIdx=\"17\">6%</td>      <td id=\"pivot__R341\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">66%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R342\" class=\"p-dim-member\" fIdx=\"0\">Mariangela Printezi</td>      <td id=\"pivot__R343\" class=\"p-dim-member\" fIdx=\"1\">2077</td>      <td id=\"pivot__R344\" class=\"p-dim-member\" fIdx=\"2\">10:38:57</td>      <td id=\"pivot__R345\" class=\"p-dim-member\" fIdx=\"3\">19:27:43</td>      <td id=\"pivot__R346\" class=\"p-dim-member\" fIdx=\"4\">08:48:46</td>      <td id=\"pivot__R347\" class=\"p-dim-member\" fIdx=\"5\">01:33:16</td>      <td id=\"pivot__R348\" class=\"p-dim-member\" fIdx=\"6\">01:33:16</td>      <td id=\"pivot__R349\" class=\"p-dim-member\" fIdx=\"7\">07:15:30</td>      <td id=\"pivot__R350\" class=\"p-dim-member\" fIdx=\"8\">16%</td>      <td id=\"pivot__R351\" class=\"p-dim-member\" fIdx=\"9\">123</td>      <td id=\"pivot__R352\" class=\"p-dim-member\" fIdx=\"10\">15</td>      <td id=\"pivot__R353\" class=\"p-dim-member\" fIdx=\"11\">8</td>      <td id=\"pivot__R354\" class=\"p-dim-member\" fIdx=\"12\">12%</td>      <td id=\"pivot__R355\" class=\"p-dim-member\" fIdx=\"13\">6%</td>      <td id=\"pivot__R356\" class=\"p-dim-member\" fIdx=\"14\">2</td>      <td id=\"pivot__R357\" class=\"p-dim-member\" fIdx=\"15\">1</td>      <td id=\"pivot__R358\" class=\"p-dim-member\" fIdx=\"16\">1</td>      <td id=\"pivot__R359\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R360\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">12%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R361\" class=\"p-dim-member\" fIdx=\"0\">Odysseas Louvaris</td>      <td id=\"pivot__R362\" class=\"p-dim-member\" fIdx=\"1\">2063</td>      <td id=\"pivot__R363\" class=\"p-dim-member\" fIdx=\"2\">10:31:03</td>      <td id=\"pivot__R364\" class=\"p-dim-member\" fIdx=\"3\">18:37:20</td>      <td id=\"pivot__R365\" class=\"p-dim-member\" fIdx=\"4\">08:06:17</td>      <td id=\"pivot__R366\" class=\"p-dim-member\" fIdx=\"5\">00:11:29</td>      <td id=\"pivot__R367\" class=\"p-dim-member\" fIdx=\"6\">00:11:29</td>      <td id=\"pivot__R368\" class=\"p-dim-member\" fIdx=\"7\">07:54:48</td>      <td id=\"pivot__R369\" class=\"p-dim-member\" fIdx=\"8\">1%</td>      <td id=\"pivot__R370\" class=\"p-dim-member\" fIdx=\"9\">14</td>      <td id=\"pivot__R371\" class=\"p-dim-member\" fIdx=\"10\">5</td>      <td id=\"pivot__R372\" class=\"p-dim-member\" fIdx=\"11\">1</td>      <td id=\"pivot__R373\" class=\"p-dim-member\" fIdx=\"12\">35%</td>      <td id=\"pivot__R374\" class=\"p-dim-member\" fIdx=\"13\">7%</td>      <td id=\"pivot__R375\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R376\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R377\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R378\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R379\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">0%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R380\" class=\"p-dim-member\" fIdx=\"0\">Pavlos Panayi</td>      <td id=\"pivot__R381\" class=\"p-dim-member\" fIdx=\"1\">2032</td>      <td id=\"pivot__R382\" class=\"p-dim-member\" fIdx=\"2\">10:42:52</td>      <td id=\"pivot__R383\" class=\"p-dim-member\" fIdx=\"3\">13:38:58</td>      <td id=\"pivot__R384\" class=\"p-dim-member\" fIdx=\"4\">02:56:06</td>      <td id=\"pivot__R385\" class=\"p-dim-member\" fIdx=\"5\">00:41:29</td>      <td id=\"pivot__R386\" class=\"p-dim-member\" fIdx=\"6\">00:41:29</td>      <td id=\"pivot__R387\" class=\"p-dim-member\" fIdx=\"7\">02:14:37</td>      <td id=\"pivot__R388\" class=\"p-dim-member\" fIdx=\"8\">16%</td>      <td id=\"pivot__R389\" class=\"p-dim-member\" fIdx=\"9\">4</td>      <td id=\"pivot__R390\" class=\"p-dim-member\" fIdx=\"10\">2</td>      <td id=\"pivot__R391\" class=\"p-dim-member\" fIdx=\"11\">1</td>      <td id=\"pivot__R392\" class=\"p-dim-member\" fIdx=\"12\">50%</td>      <td id=\"pivot__R393\" class=\"p-dim-member\" fIdx=\"13\">25%</td>      <td id=\"pivot__R394\" class=\"p-dim-member\" fIdx=\"14\">1</td>      <td id=\"pivot__R395\" class=\"p-dim-member\" fIdx=\"15\">1</td>      <td id=\"pivot__R396\" class=\"p-dim-member\" fIdx=\"16\">1</td>      <td id=\"pivot__R397\" class=\"p-dim-member\" fIdx=\"17\">25%</td>      <td id=\"pivot__R398\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">100%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R399\" class=\"p-dim-member\" fIdx=\"0\">Sergio Welman</td>      <td id=\"pivot__R400\" class=\"p-dim-member\" fIdx=\"1\">2105</td>      <td id=\"pivot__R401\" class=\"p-dim-member\" fIdx=\"2\">12:50:11</td>      <td id=\"pivot__R402\" class=\"p-dim-member\" fIdx=\"3\">20:59:08</td>      <td id=\"pivot__R403\" class=\"p-dim-member\" fIdx=\"4\">08:08:57</td>      <td id=\"pivot__R404\" class=\"p-dim-member\" fIdx=\"5\">00:15:22</td>      <td id=\"pivot__R405\" class=\"p-dim-member\" fIdx=\"6\">00:15:22</td>      <td id=\"pivot__R406\" class=\"p-dim-member\" fIdx=\"7\">07:53:35</td>      <td id=\"pivot__R407\" class=\"p-dim-member\" fIdx=\"8\">2%</td>      <td id=\"pivot__R408\" class=\"p-dim-member\" fIdx=\"9\">76</td>      <td id=\"pivot__R409\" class=\"p-dim-member\" fIdx=\"10\">1</td>      <td id=\"pivot__R410\" class=\"p-dim-member\" fIdx=\"11\">1</td>      <td id=\"pivot__R411\" class=\"p-dim-member\" fIdx=\"12\">1%</td>      <td id=\"pivot__R412\" class=\"p-dim-member\" fIdx=\"13\">1%</td>      <td id=\"pivot__R413\" class=\"p-dim-member\" fIdx=\"14\">1</td>      <td id=\"pivot__R414\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R415\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R416\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R417\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">0%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R418\" class=\"p-dim-member\" fIdx=\"0\">Stanislav Dobenko</td>      <td id=\"pivot__R419\" class=\"p-dim-member\" fIdx=\"1\">2101</td>      <td id=\"pivot__R420\" class=\"p-dim-member\" fIdx=\"2\">11:17:37</td>      <td id=\"pivot__R421\" class=\"p-dim-member\" fIdx=\"3\">19:49:43</td>      <td id=\"pivot__R422\" class=\"p-dim-member\" fIdx=\"4\">08:32:06</td>      <td id=\"pivot__R423\" class=\"p-dim-member\" fIdx=\"5\">03:52:37</td>      <td id=\"pivot__R424\" class=\"p-dim-member\" fIdx=\"6\">03:52:37</td>      <td id=\"pivot__R425\" class=\"p-dim-member\" fIdx=\"7\">04:39:29</td>      <td id=\"pivot__R426\" class=\"p-dim-member\" fIdx=\"8\">42%</td>      <td id=\"pivot__R427\" class=\"p-dim-member\" fIdx=\"9\">56</td>      <td id=\"pivot__R428\" class=\"p-dim-member\" fIdx=\"10\">19</td>      <td id=\"pivot__R429\" class=\"p-dim-member\" fIdx=\"11\">16</td>      <td id=\"pivot__R430\" class=\"p-dim-member\" fIdx=\"12\">33%</td>      <td id=\"pivot__R431\" class=\"p-dim-member\" fIdx=\"13\">28%</td>      <td id=\"pivot__R432\" class=\"p-dim-member\" fIdx=\"14\">14</td>      <td id=\"pivot__R433\" class=\"p-dim-member\" fIdx=\"15\">12</td>      <td id=\"pivot__R434\" class=\"p-dim-member\" fIdx=\"16\">9</td>      <td id=\"pivot__R435\" class=\"p-dim-member\" fIdx=\"17\">21%</td>      <td id=\"pivot__R436\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">56%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R437\" class=\"p-dim-member\" fIdx=\"0\">Stefani Koulenti</td>      <td id=\"pivot__R438\" class=\"p-dim-member\" fIdx=\"1\">2065</td>      <td id=\"pivot__R439\" class=\"p-dim-member\" fIdx=\"2\">12:07:05</td>      <td id=\"pivot__R440\" class=\"p-dim-member\" fIdx=\"3\">17:40:39</td>      <td id=\"pivot__R441\" class=\"p-dim-member\" fIdx=\"4\">05:33:34</td>      <td id=\"pivot__R442\" class=\"p-dim-member\" fIdx=\"5\">00:38:28</td>      <td id=\"pivot__R443\" class=\"p-dim-member\" fIdx=\"6\">00:38:28</td>      <td id=\"pivot__R444\" class=\"p-dim-member\" fIdx=\"7\">04:55:06</td>      <td id=\"pivot__R445\" class=\"p-dim-member\" fIdx=\"8\">7%</td>      <td id=\"pivot__R446\" class=\"p-dim-member\" fIdx=\"9\">11</td>      <td id=\"pivot__R447\" class=\"p-dim-member\" fIdx=\"10\">3</td>      <td id=\"pivot__R448\" class=\"p-dim-member\" fIdx=\"11\">2</td>      <td id=\"pivot__R449\" class=\"p-dim-member\" fIdx=\"12\">27%</td>      <td id=\"pivot__R450\" class=\"p-dim-member\" fIdx=\"13\">18%</td>      <td id=\"pivot__R451\" class=\"p-dim-member\" fIdx=\"14\">1</td>      <td id=\"pivot__R452\" class=\"p-dim-member\" fIdx=\"15\">1</td>      <td id=\"pivot__R453\" class=\"p-dim-member\" fIdx=\"16\">1</td>      <td id=\"pivot__R454\" class=\"p-dim-member\" fIdx=\"17\">9%</td>      <td id=\"pivot__R455\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\">50%</td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>    <tr>      <td id=\"pivot__R456\" class=\"p-dim-member\" fIdx=\"0\">Stylianos Michael</td>      <td id=\"pivot__R457\" class=\"p-dim-member\" fIdx=\"1\">2052</td>      <td id=\"pivot__R458\" class=\"p-dim-member\" fIdx=\"2\">11:51:42</td>      <td id=\"pivot__R459\" class=\"p-dim-member\" fIdx=\"3\">15:46:41</td>      <td id=\"pivot__R460\" class=\"p-dim-member\" fIdx=\"4\">03:54:59</td>      <td id=\"pivot__R461\" class=\"p-dim-member\" fIdx=\"5\">00:01:33</td>      <td id=\"pivot__R462\" class=\"p-dim-member\" fIdx=\"6\">00:01:33</td>      <td id=\"pivot__R463\" class=\"p-dim-member\" fIdx=\"7\">03:53:26</td>      <td id=\"pivot__R464\" class=\"p-dim-member\" fIdx=\"8\">0%</td>      <td id=\"pivot__R465\" class=\"p-dim-member\" fIdx=\"9\">2</td>      <td id=\"pivot__R466\" class=\"p-dim-member\" fIdx=\"10\">0</td>      <td id=\"pivot__R467\" class=\"p-dim-member\" fIdx=\"11\">0</td>      <td id=\"pivot__R468\" class=\"p-dim-member\" fIdx=\"12\">0%</td>      <td id=\"pivot__R469\" class=\"p-dim-member\" fIdx=\"13\">0%</td>      <td id=\"pivot__R470\" class=\"p-dim-member\" fIdx=\"14\">0</td>      <td id=\"pivot__R471\" class=\"p-dim-member\" fIdx=\"15\">0</td>      <td id=\"pivot__R472\" class=\"p-dim-member\" fIdx=\"16\">0</td>      <td id=\"pivot__R473\" class=\"p-dim-member\" fIdx=\"17\">0%</td>      <td id=\"pivot__R474\" class=\"p-dim-member p-last-row-col\" fIdx=\"18\" isNull=\"true\"></td>      <td class=\"p-value p-first-data-col\" fIdx=\"19\">0</td>    </tr>  </tbody></table>",
+            "fields": [
+              {
+                "id": "[Employees.full_name_duplicate]",
+                "index": 0
+              },
+              {
+                "id": "[Calls.agent_num]",
+                "index": 1
+              },
+              {
+                "id": "[FXVC_Agent_Stats.First_CallTime]",
+                "index": 2
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Last_CallEnd]",
+                "index": 3
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Log_Time]",
+                "index": 4
+              },
+              {
+                "id": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "index": 5
+              },
+              {
+                "id": "[FXVC_Agent_Stats.GrossPhoneTime]",
+                "index": 6
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Idle_Time]",
+                "index": 7
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Time_Active(Gross)]",
+                "index": 8
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Outgoing_Calls]",
+                "index": 9
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Successful_Calls_30s]",
+                "index": 10
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Successful_Calls_90s]",
+                "index": 11
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Success30s%]",
+                "index": 12
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Success90s%]",
+                "index": 13
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Effective_Calls_3min]",
+                "index": 14
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Effective_Calls_5min]",
+                "index": 15
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Effective_Calls_8.5min]",
+                "index": 16
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Effective5min%]",
+                "index": 17
+              },
+              {
+                "id": "[FXVC_Agent_Stats.Effective8.5min%]",
+                "index": 18
+              },
+              {
+                "id": "0",
+                "index": 19
+              }
+            ],
+            "formattingFormulas": {},
+            "isTable": true,
+            "isEmpty": false
+          }
+        },
+        "selectorLocked": false
+      },
+      "dashboardid": "5eb15b25846295228cb5fbfb",
+      "tenantId": "6005951eebdb06001a08e954",
+      "wasTransposed": false
+    }
+  ],
+  "hierarchies": []
+}

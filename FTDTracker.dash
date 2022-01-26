@@ -1,0 +1,3017 @@
+{
+  "oid": "609e36cfa82cc3002d025016",
+  "allowChangeSubscription": false,
+  "dataExploration": false,
+  "datasource": {
+    "title": "ftd tracker list",
+    "fullname": "LocalHost/ftd tracker list",
+    "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+    "address": "LocalHost",
+    "database": "aftdIAAatrackerIAAalist"
+  },
+  "defaultFilters": [
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "FirstDepositDate",
+        "dim": "[Customers.FirstDepositDate (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Months in FirstDepositDate",
+        "level": "months",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist",
+          "lastBuildTime": "2020-01-24T09:29:00"
+        },
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 0
+          }
+        }
+      },
+      "instanceid": "3641D-B662-D1",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "SiteName",
+        "dim": "[Customers.SiteName]",
+        "datatype": "text",
+        "merged": true,
+        "title": "SiteName",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist",
+          "lastBuildTime": "2020-01-24T09:29:00"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "8C720-D8B7-8F",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "team_incharge",
+        "dim": "[Customers.team_incharge]",
+        "datatype": "text",
+        "merged": true,
+        "title": "team_incharge",
+        "collapsed": true,
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist",
+          "lastBuildTime": "2020-01-24T09:29:00"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "54882-DD0D-19",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "employee_incharge",
+        "dim": "[Customers.employee_incharge]",
+        "datatype": "text",
+        "merged": true,
+        "title": "agent_incharge",
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist",
+          "lastBuildTime": "2020-01-24T09:29:00"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "81A94-56B8-5D",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "group_incharge",
+        "dim": "[Customers.group_incharge]",
+        "datatype": "text",
+        "merged": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        },
+        "collapsed": true,
+        "title": "group_incharge",
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist"
+        },
+        "isDashboardFilter": true
+      },
+      "instanceid": "96643-E28E-9A",
+      "isCascading": false
+    },
+    {
+      "instanceid": "4A442-7791-75",
+      "isCascading": false,
+      "disabled": false,
+      "jaql": {
+        "table": "Employees",
+        "column": "full_name_duplicate",
+        "dim": "[Employees.full_name_duplicate]",
+        "datatype": "text",
+        "merged": true,
+        "title": "full_name_duplicate",
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist"
+        },
+        "collapsed": true,
+        "panel": "scope",
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      }
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "customer_id",
+        "dim": "[Customers.customer_id]",
+        "datatype": "text",
+        "merged": true,
+        "title": "customer_id",
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist"
+        },
+        "collapsed": false,
+        "filter": {
+          "contains": "1304421"
+        }
+      },
+      "instanceid": "0139E-1C53-F2",
+      "isCascading": false,
+      "disabled": true
+    },
+    {
+      "instanceid": "F2EF8-F58A-78",
+      "isCascading": true,
+      "levels": [
+        {
+          "table": "Customers",
+          "column": "team_name_assign",
+          "dim": "[Customers.team_name_assign]",
+          "datatype": "text",
+          "merged": true,
+          "title": "Team Assign",
+          "datasource": {
+            "title": "ftd tracker list",
+            "fullname": "LocalHost/ftd tracker list",
+            "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+            "address": "LocalHost",
+            "database": "aftdIAAatrackerIAAalist"
+          },
+          "collapsed": true,
+          "panel": "scope",
+          "isDashboardFilter": true,
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true
+          }
+        },
+        {
+          "table": "Customers",
+          "column": "full_name_assign",
+          "dim": "[Customers.full_name_assign]",
+          "datatype": "text",
+          "merged": true,
+          "title": "Agent Assing",
+          "datasource": {
+            "title": "ftd tracker list",
+            "fullname": "LocalHost/ftd tracker list",
+            "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+            "address": "LocalHost",
+            "database": "aftdIAAatrackerIAAalist"
+          },
+          "collapsed": true,
+          "isDashboardFilter": true,
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true
+          }
+        }
+      ],
+      "model": {
+        "instanceid": "BDE43-9754-2F",
+        "__store": [
+          "[Customers.team_name_assign]",
+          "[Customers.full_name_assign]"
+        ]
+      },
+      "disabled": false
+    }
+  ],
+  "desc": "",
+  "editing": false,
+  "filterToDatasourceMapping": {},
+  "filters": [
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "FirstDepositDate",
+        "dim": "[Customers.FirstDepositDate (Calendar)]",
+        "datatype": "datetime",
+        "merged": true,
+        "title": "Months in FirstDepositDate",
+        "level": "months",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist",
+          "lastBuildTime": "2020-01-24T09:29:00"
+        },
+        "filter": {
+          "last": {
+            "count": 1,
+            "offset": 0
+          }
+        }
+      },
+      "instanceid": "3641D-B662-D1",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "SiteName",
+        "dim": "[Customers.SiteName]",
+        "datatype": "text",
+        "merged": true,
+        "title": "SiteName",
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist",
+          "lastBuildTime": "2020-01-24T09:29:00"
+        },
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "8C720-D8B7-8F",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "team_incharge",
+        "dim": "[Customers.team_incharge]",
+        "datatype": "text",
+        "merged": true,
+        "title": "team_incharge",
+        "collapsed": true,
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist",
+          "lastBuildTime": "2020-01-24T09:29:00"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "54882-DD0D-19",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "employee_incharge",
+        "dim": "[Customers.employee_incharge]",
+        "datatype": "text",
+        "merged": true,
+        "title": "agent_incharge",
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist",
+          "lastBuildTime": "2020-01-24T09:29:00"
+        },
+        "collapsed": true,
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "81A94-56B8-5D",
+      "isCascading": false,
+      "disabled": false
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "group_incharge",
+        "dim": "[Customers.group_incharge]",
+        "datatype": "text",
+        "merged": true,
+        "collapsed": true,
+        "title": "group_incharge",
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist"
+        },
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      },
+      "instanceid": "96643-E28E-9A",
+      "isCascading": false
+    },
+    {
+      "instanceid": "4A442-7791-75",
+      "isCascading": false,
+      "disabled": false,
+      "jaql": {
+        "table": "Employees",
+        "column": "full_name_duplicate",
+        "dim": "[Employees.full_name_duplicate]",
+        "datatype": "text",
+        "merged": true,
+        "title": "full_name_duplicate",
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist"
+        },
+        "collapsed": true,
+        "panel": "scope",
+        "isDashboardFilter": true,
+        "filter": {
+          "explicit": false,
+          "multiSelection": true,
+          "all": true
+        }
+      }
+    },
+    {
+      "jaql": {
+        "table": "Customers",
+        "column": "customer_id",
+        "dim": "[Customers.customer_id]",
+        "datatype": "text",
+        "merged": true,
+        "title": "customer_id",
+        "datasource": {
+          "title": "ftd tracker list",
+          "fullname": "LocalHost/ftd tracker list",
+          "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+          "address": "LocalHost",
+          "database": "aftdIAAatrackerIAAalist"
+        },
+        "collapsed": false,
+        "filter": {
+          "contains": "1304421"
+        }
+      },
+      "instanceid": "0139E-1C53-F2",
+      "isCascading": false,
+      "disabled": true
+    },
+    {
+      "instanceid": "F2EF8-F58A-78",
+      "isCascading": true,
+      "levels": [
+        {
+          "table": "Customers",
+          "column": "team_name_assign",
+          "dim": "[Customers.team_name_assign]",
+          "datatype": "text",
+          "merged": true,
+          "title": "Team Assign",
+          "datasource": {
+            "title": "ftd tracker list",
+            "fullname": "LocalHost/ftd tracker list",
+            "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+            "address": "LocalHost",
+            "database": "aftdIAAatrackerIAAalist"
+          },
+          "collapsed": true,
+          "panel": "scope",
+          "isDashboardFilter": true,
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true
+          }
+        },
+        {
+          "table": "Customers",
+          "column": "full_name_assign",
+          "dim": "[Customers.full_name_assign]",
+          "datatype": "text",
+          "merged": true,
+          "title": "Agent Assing",
+          "datasource": {
+            "title": "ftd tracker list",
+            "fullname": "LocalHost/ftd tracker list",
+            "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+            "address": "LocalHost",
+            "database": "aftdIAAatrackerIAAalist"
+          },
+          "collapsed": true,
+          "isDashboardFilter": true,
+          "filter": {
+            "explicit": false,
+            "multiSelection": true,
+            "all": true
+          }
+        }
+      ],
+      "model": {
+        "instanceid": "BDE43-9754-2F",
+        "__store": [
+          "[Customers.team_name_assign]",
+          "[Customers.full_name_assign]"
+        ]
+      },
+      "disabled": false
+    }
+  ],
+  "isPublic": null,
+  "lastPublish": "2022-01-05T09:19:17.276Z",
+  "layout": {
+    "instanceid": "84D6B-51EA-15",
+    "type": "columnar",
+    "columns": [
+      {
+        "width": 100,
+        "cells": [
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "292px",
+                    "defaultWidth": 512,
+                    "widgetid": "609e36cfa82cc3002d025018"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 719.5,
+                "index": 0
+              },
+              {
+                "elements": [
+                  {
+                    "minHeight": 96,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "defaultWidth": 512,
+                    "widgetid": "609e36cfa82cc3002d025019",
+                    "height": "292px"
+                  }
+                ],
+                "width": 50,
+                "stretchable": false,
+                "pxlWidth": 719.5,
+                "index": 1
+              }
+            ]
+          },
+          {
+            "subcells": [
+              {
+                "elements": [
+                  {
+                    "minHeight": 128,
+                    "maxHeight": 2048,
+                    "minWidth": 128,
+                    "maxWidth": 2048,
+                    "height": "118px",
+                    "defaultWidth": 512,
+                    "widgetid": "609e36cfa82cc3002d025017",
+                    "autoHeight": "118px"
+                  }
+                ],
+                "width": 100,
+                "stretchable": false,
+                "pxlWidth": 1439,
+                "index": 0
+              }
+            ]
+          }
+        ],
+        "pxlWidth": 1439,
+        "index": 0
+      }
+    ],
+    "container": {}
+  },
+  "original": null,
+  "parentFolder": "6087ff49b5040b002dc45e87",
+  "previewLayout": [],
+  "settings": {
+    "autoUpdateOnFiltersChange": true
+  },
+  "source": "609e36cfa82cc3002d02501a",
+  "style": {
+    "name": "vivid",
+    "palette": {
+      "colors": [
+        "#00cee6",
+        "#9b9bd7",
+        "#6EDA55",
+        "#fc7570",
+        "#fbb755",
+        "#218A8C"
+      ],
+      "name": "Vivid",
+      "sortOrder": 10,
+      "isSystem": true,
+      "systemDefault": true
+    }
+  },
+  "title": "FTD Tracker",
+  "type": "dashboard",
+  "subscription": {
+    "isDataChange": true,
+    "type": "onUpdate",
+    "schedule": "* * * * * *",
+    "timezone": -60,
+    "tzName": "Europe/Budapest",
+    "context": {
+      "dashboardid": "609e36cfa82cc3002d025016"
+    },
+    "active": false,
+    "executionPerDay": 1,
+    "reportType": {
+      "inline": true
+    },
+    "emailSettings": {
+      "isEmail": true,
+      "isPdf": false
+    },
+    "startAt": "2021-05-14",
+    "subscribe": false
+  },
+  "tenantId": "6005951eebdb06001a08e954",
+  "widgets": [
+    {
+      "title": "Retention Call Protocol",
+      "subtype": "pivot",
+      "desc": null,
+      "source": "609e36cfa82cc3002d02501b",
+      "datasource": {
+        "title": "ftd tracker list",
+        "fullname": "LocalHost/ftd tracker list",
+        "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+        "address": "LocalHost",
+        "database": "aftdIAAatrackerIAAalist",
+        "lastBuildTime": "2020-01-24T09:29:57"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "rows",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "customer_id",
+                  "dim": "[Customers.customer_id]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Customer Id"
+                },
+                "field": {
+                  "id": "[Customers.customer_id]",
+                  "index": 0
+                },
+                "disabled": false,
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "SiteName",
+                  "dim": "[Customers.SiteName]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Site Name"
+                },
+                "field": {
+                  "index": 1
+                },
+                "disabled": false,
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "country_name",
+                  "dim": "[Customers.country_name]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "country_name"
+                },
+                "field": {
+                  "id": "[Customers.country_name]",
+                  "index": 2
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "full_name",
+                  "dim": "[Customers.full_name]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Customer Name"
+                },
+                "field": {
+                  "id": "[Customers.full_name]",
+                  "index": 3
+                },
+                "disabled": false,
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "campaign_sub_id",
+                  "dim": "[Customers.campaign_sub_id]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Campaign"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.campaign_sub_id]",
+                  "index": 4
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "verification",
+                  "dim": "[Customers.verification]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "verification"
+                },
+                "field": {
+                  "id": "[Customers.verification]",
+                  "index": 5
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "FirstDepositDate",
+                  "dim": "[Customers.FirstDepositDate (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "First Deposit Date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "dd/MM/yyyy",
+                    "minutes": "HH:mm"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "field": {
+                  "id": "[Customers.FirstDepositDate (Calendar)]_days",
+                  "index": 6
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "assignment_date",
+                  "dim": "[Customers.assignment_date (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "Assignment Date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "dd/MM/yyyy",
+                    "minutes": "HH:mm"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "field": {
+                  "id": "[Customers.assignment_date (Calendar)]_days",
+                  "index": 7
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "LastCallDate",
+                  "dim": "[Customers.LastCallDate (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "Last Call Date"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "dd/MM/yyyy",
+                    "minutes": "HH:mm"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "field": {
+                  "id": "[Customers.LastCallDate (Calendar)]_days",
+                  "index": 8
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "DaysBetweenLastCallAndFTD",
+                  "dim": "[Customers.DaysBetweenLastCallAndFTD]",
+                  "datatype": "numeric",
+                  "title": "Days From FTD to Last Call"
+                },
+                "field": {
+                  "index": 9
+                },
+                "disabled": true,
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "first_call",
+                  "dim": "[Customers.first_call (Calendar)]",
+                  "datatype": "datetime",
+                  "merged": true,
+                  "level": "days",
+                  "title": "Days in first_call"
+                },
+                "format": {
+                  "mask": {
+                    "years": "yyyy",
+                    "quarters": "yyyy Q",
+                    "months": "MM/yyyy",
+                    "weeks": "ww yyyy",
+                    "days": "dd/MM/yyyy",
+                    "minutes": "HH:mm"
+                  }
+                },
+                "hierarchies": [
+                  "calendar",
+                  "calendar - weeks"
+                ],
+                "field": {
+                  "id": "[Customers.first_call (Calendar)]_days",
+                  "index": 10
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "DaysFromLastCall",
+                  "dim": "[Customers.DaysFromLastCall]",
+                  "datatype": "numeric",
+                  "title": "Days From Last Call"
+                },
+                "field": {
+                  "id": "[Customers.DaysFromLastCall]",
+                  "index": 11
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "team_incharge",
+                  "dim": "[Customers.team_incharge]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Team In Charge"
+                },
+                "field": {
+                  "id": "[Customers.team_incharge]",
+                  "index": 12
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "employee_incharge",
+                  "dim": "[Customers.employee_incharge]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Agent In Charge"
+                },
+                "field": {
+                  "id": "[Customers.employee_incharge]",
+                  "index": 13
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "team_name_assign",
+                  "dim": "[Customers.team_name_assign]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Team Assign"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.team_name_assign]",
+                  "index": 14
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "full_name_assign",
+                  "dim": "[Customers.full_name_assign]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Agent Assign"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.full_name_assign]",
+                  "index": 15
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "ret_status",
+                  "dim": "[Customers.ret_status]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Retention Sale Status"
+                },
+                "field": {
+                  "id": "[Customers.ret_status]",
+                  "index": 16
+                },
+                "panel": "rows"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "is_effective_60s",
+                  "dim": "[Customers.is_effective_60s]",
+                  "datatype": "numeric",
+                  "title": "is_effective_60s"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.is_effective_60s]",
+                  "index": 17
+                },
+                "format": {
+                  "width": 147
+                }
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "is_effective",
+                  "dim": "[Customers.is_effective]",
+                  "datatype": "numeric",
+                  "title": "is_effective 180sec"
+                },
+                "panel": "rows",
+                "field": {
+                  "id": "[Customers.is_effective]",
+                  "index": 18
+                },
+                "format": {
+                  "width": 126
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "type": "measure",
+                  "formula": "MnDiff([5D870-446],[ED97B-629])",
+                  "context": {
+                    "[ED97B-629]": {
+                      "table": "Customers",
+                      "column": "FirstDepositDate",
+                      "dim": "[Customers.FirstDepositDate (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "days",
+                      "title": "Days in FirstDepositDate"
+                    },
+                    "[5D870-446]": {
+                      "table": "Customers",
+                      "column": "first_call",
+                      "dim": "[Customers.first_call (Calendar)]",
+                      "datatype": "datetime",
+                      "merged": true,
+                      "level": "days",
+                      "title": "Days in first_call"
+                    }
+                  },
+                  "sortDetails": {
+                    "field": 12,
+                    "dir": "asc",
+                    "sortingLastDimension": true,
+                    "measurePath": null,
+                    "initialized": true
+                  },
+                  "sort": "asc",
+                  "title": "MIN DIFF FTD to First call",
+                  "datatype": "numeric"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "field": {
+                  "id": "MnDiff([5D870-446],[ED97B-629])",
+                  "index": 19
+                },
+                "panel": "measures"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "number_of_calls_1st_day",
+                  "dim": "[Customers.number_of_calls_1st_day]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Calls 1st Day"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "condition",
+                    "conditions": [
+                      {
+                        "color": "#ffa3a0",
+                        "operator": "=",
+                        "expression": "0"
+                      },
+                      {
+                        "color": "#ffa3a0",
+                        "operator": "≥",
+                        "expression": "7"
+                      },
+                      {
+                        "color": "#6eda55",
+                        "operator": "=",
+                        "expression": "3"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": "<",
+                        "expression": "3"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": ">",
+                        "expression": "0"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": ">",
+                        "expression": "3"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": "<",
+                        "expression": "7"
+                      }
+                    ]
+                  }
+                },
+                "field": {
+                  "id": "[Customers.number_of_calls_1st_day]_sum",
+                  "index": 20
+                },
+                "panel": "measures"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "number_of_calls_2nd_day",
+                  "dim": "[Customers.number_of_calls_2nd_day]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Calls 2nd Day"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "condition",
+                    "conditions": [
+                      {
+                        "color": "#ffa3a0",
+                        "operator": "=",
+                        "expression": "0"
+                      },
+                      {
+                        "color": "#ffa3a0",
+                        "operator": "≥",
+                        "expression": "7"
+                      },
+                      {
+                        "color": "#6eda55",
+                        "operator": "=",
+                        "expression": "3"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": "<",
+                        "expression": "3"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": ">",
+                        "expression": "0"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": ">",
+                        "expression": "3"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": "<",
+                        "expression": "7"
+                      }
+                    ]
+                  }
+                },
+                "field": {
+                  "id": "[Customers.number_of_calls_2nd_day]_sum",
+                  "index": 21
+                },
+                "panel": "measures"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "number_of_calls_3rd_day",
+                  "dim": "[Customers.number_of_calls_3rd_day]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Calls 3rd Day"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "condition",
+                    "conditions": [
+                      {
+                        "color": "#ffa3a0",
+                        "operator": "=",
+                        "expression": "0"
+                      },
+                      {
+                        "color": "#ffa3a0",
+                        "operator": "≥",
+                        "expression": "7"
+                      },
+                      {
+                        "color": "#6eda55",
+                        "operator": "=",
+                        "expression": "3"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": "<",
+                        "expression": "3"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": ">",
+                        "expression": "0"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": ">",
+                        "expression": "3"
+                      },
+                      {
+                        "color": "#ffcd84",
+                        "operator": "<",
+                        "expression": "7"
+                      }
+                    ]
+                  }
+                },
+                "field": {
+                  "id": "[Customers.number_of_calls_3rd_day]_sum",
+                  "index": 22
+                },
+                "panel": "measures"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "number_of_calls_4th_day",
+                  "dim": "[Customers.number_of_calls_4th_day]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Calls 4th Day"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "field": {
+                  "index": 23
+                },
+                "disabled": true,
+                "panel": "measures"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "number_of_calls_5th_day",
+                  "dim": "[Customers.number_of_calls_5th_day]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Calls 5th Day"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "field": {
+                  "index": 24
+                },
+                "disabled": true,
+                "panel": "measures"
+              },
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "number_of_calls_5plus_day",
+                  "dim": "[Customers.number_of_calls_5plus_day]",
+                  "datatype": "numeric",
+                  "agg": "sum",
+                  "title": "Calls after 5th Day"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "t": true,
+                    "b": true,
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color": {
+                    "type": "color",
+                    "color": "transparent"
+                  }
+                },
+                "field": {
+                  "index": 25
+                },
+                "disabled": true,
+                "panel": "measures"
+              }
+            ]
+          },
+          {
+            "name": "columns",
+            "items": []
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "oid": "609e36cfa82cc3002d025017",
+      "type": "pivot2",
+      "style": {
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "customer_id",
+              "title": "customer_id",
+              "singular": "customer_id",
+              "plural": "customer_id"
+            },
+            {
+              "id": "site_name",
+              "title": "Site Name",
+              "singular": "Site Name",
+              "plural": "Site Name"
+            },
+            {
+              "id": "country_name",
+              "title": "country_name",
+              "singular": "country_name",
+              "plural": "country_name"
+            },
+            {
+              "id": "customer_name",
+              "title": "Customer Name",
+              "singular": "Customer Name",
+              "plural": "Customer Name"
+            },
+            {
+              "id": "campaign_sub_id",
+              "title": "campaign_sub_id",
+              "singular": "campaign_sub_id",
+              "plural": "campaign_sub_id"
+            },
+            {
+              "id": "verification",
+              "title": "verification",
+              "singular": "verification",
+              "plural": "verification"
+            },
+            {
+              "id": "first_deposit_date",
+              "title": "First Deposit Date",
+              "singular": "First Deposit Date",
+              "plural": "First Deposit Date"
+            },
+            {
+              "id": "assignment_date",
+              "title": "Assignment Date",
+              "singular": "Assignment Date",
+              "plural": "Assignment Date"
+            },
+            {
+              "id": "last_call_date",
+              "title": "Last Call Date",
+              "singular": "Last Call Date",
+              "plural": "Last Call Date"
+            },
+            {
+              "id": "days_from_ftd_to_last_call",
+              "title": "Days From FTD to Last Call",
+              "singular": "Days From FTD to Last Call",
+              "plural": "Days From FTD to Last Call"
+            },
+            {
+              "id": "days_in_first_call",
+              "title": "Days in first_call",
+              "singular": "Days in first_call",
+              "plural": "Days in first_call"
+            },
+            {
+              "id": "days_from_last_call",
+              "title": "Days From Last Call",
+              "singular": "Days From Last Call",
+              "plural": "Days From Last Call"
+            },
+            {
+              "id": "team_in_charge",
+              "title": "Team In Charge",
+              "singular": "Team In Charge",
+              "plural": "Team In Charge"
+            },
+            {
+              "id": "agent_in_charge",
+              "title": "Agent In Charge",
+              "singular": "Agent In Charge",
+              "plural": "Agent In Charge"
+            },
+            {
+              "id": "team_assign",
+              "title": "Team Assign",
+              "singular": "Team Assign",
+              "plural": "Team Assign"
+            },
+            {
+              "id": "agent_assign",
+              "title": "Agent Assign",
+              "singular": "Agent Assign",
+              "plural": "Agent Assign"
+            },
+            {
+              "id": "retention_sale_status",
+              "title": "Retention Sale Status",
+              "singular": "Retention Sale Status",
+              "plural": "Retention Sale Status"
+            },
+            {
+              "id": "is_effective_60s",
+              "title": "is_effective_60s",
+              "singular": "is_effective_60s",
+              "plural": "is_effective_60s"
+            },
+            {
+              "id": "is_effective_180sec",
+              "title": "is_effective 180sec",
+              "singular": "is_effective 180sec",
+              "plural": "is_effective 180sec"
+            }
+          ]
+        },
+        "scroll": false
+      },
+      "instanceid": "1C901-8BD9-B5",
+      "queryStartTime": "2021-09-22T10:35:20",
+      "drawing": true,
+      "widgetTimingLoged": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": false,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 2,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "filter",
+        "selector": false,
+        "triggersDomready": true,
+        "drillToAnywhere": true,
+        "limitFilters": {},
+        "queryStats": {
+          "measures": [
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "number_of_calls_1st_day",
+                "dim": "[Customers.number_of_calls_1st_day]",
+                "datatype": "numeric",
+                "agg": "sum",
+                "title": "Calls 1st Day"
+              },
+              "format": {
+                "mask": {
+                  "type": "number",
+                  "t": true,
+                  "b": true,
+                  "separated": true,
+                  "decimals": "auto",
+                  "isdefault": true
+                },
+                "color": {
+                  "type": "condition",
+                  "conditions": [
+                    {
+                      "color": "#ffa3a0",
+                      "operator": "=",
+                      "expression": "0"
+                    }
+                  ]
+                }
+              },
+              "field": {
+                "id": "[Customers.number_of_calls_1st_day]_sum",
+                "index": 10
+              },
+              "panel": "measures",
+              "handlers": [
+                {},
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "number_of_calls_2nd_day",
+                "dim": "[Customers.number_of_calls_2nd_day]",
+                "datatype": "numeric",
+                "agg": "sum",
+                "title": "Calls 2nd Day"
+              },
+              "format": {
+                "mask": {
+                  "type": "number",
+                  "t": true,
+                  "b": true,
+                  "separated": true,
+                  "decimals": "auto",
+                  "isdefault": true
+                },
+                "color": {
+                  "type": "condition",
+                  "conditions": [
+                    {
+                      "color": "#ffa3a0",
+                      "operator": "=",
+                      "expression": "0"
+                    }
+                  ]
+                }
+              },
+              "field": {
+                "id": "[Customers.number_of_calls_2nd_day]_sum",
+                "index": 11
+              },
+              "panel": "measures",
+              "handlers": [
+                {},
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "number_of_calls_3rd_day",
+                "dim": "[Customers.number_of_calls_3rd_day]",
+                "datatype": "numeric",
+                "agg": "sum",
+                "title": "Calls 3rd Day"
+              },
+              "format": {
+                "mask": {
+                  "type": "number",
+                  "t": true,
+                  "b": true,
+                  "separated": true,
+                  "decimals": "auto",
+                  "isdefault": true
+                },
+                "color": {
+                  "type": "color",
+                  "color": "transparent"
+                }
+              },
+              "field": {
+                "id": "[Customers.number_of_calls_3rd_day]_sum",
+                "index": 12
+              },
+              "panel": "measures",
+              "handlers": [
+                {},
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "number_of_calls_4th_day",
+                "dim": "[Customers.number_of_calls_4th_day]",
+                "datatype": "numeric",
+                "agg": "sum",
+                "title": "Calls 4th Day"
+              },
+              "format": {
+                "mask": {
+                  "type": "number",
+                  "t": true,
+                  "b": true,
+                  "separated": true,
+                  "decimals": "auto",
+                  "isdefault": true
+                },
+                "color": {
+                  "type": "color",
+                  "color": "transparent"
+                }
+              },
+              "field": {
+                "id": "[Customers.number_of_calls_4th_day]_sum",
+                "index": 13
+              },
+              "panel": "measures",
+              "handlers": [
+                {},
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "number_of_calls_5th_day",
+                "dim": "[Customers.number_of_calls_5th_day]",
+                "datatype": "numeric",
+                "agg": "sum",
+                "title": "Calls 5th Day"
+              },
+              "format": {
+                "mask": {
+                  "type": "number",
+                  "t": true,
+                  "b": true,
+                  "separated": true,
+                  "decimals": "auto",
+                  "isdefault": true
+                },
+                "color": {
+                  "type": "color",
+                  "color": "transparent"
+                }
+              },
+              "field": {
+                "id": "[Customers.number_of_calls_5th_day]_sum",
+                "index": 14
+              },
+              "panel": "measures",
+              "handlers": [
+                {},
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "number_of_calls_5plus_day",
+                "dim": "[Customers.number_of_calls_5plus_day]",
+                "datatype": "numeric",
+                "agg": "sum",
+                "title": "Calls after 5th Day"
+              },
+              "format": {
+                "mask": {
+                  "type": "number",
+                  "t": true,
+                  "b": true,
+                  "separated": true,
+                  "decimals": "auto",
+                  "isdefault": true
+                },
+                "color": {
+                  "type": "color",
+                  "color": "transparent"
+                }
+              },
+              "field": {
+                "id": "[Customers.number_of_calls_5plus_day]_sum",
+                "index": 15
+              },
+              "panel": "measures",
+              "handlers": [
+                {},
+                {}
+              ]
+            }
+          ],
+          "dimensions": [
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "SiteName",
+                "dim": "[Customers.SiteName]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Site Name"
+              },
+              "field": {
+                "id": "[Customers.SiteName]",
+                "index": 0
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "customer_id",
+                "dim": "[Customers.customer_id]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Customer Id"
+              },
+              "field": {
+                "id": "[Customers.customer_id]",
+                "index": 1
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "FirstDepositDate",
+                "dim": "[Customers.FirstDepositDate (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "level": "days",
+                "title": "First Deposit Date"
+              },
+              "format": {
+                "mask": {
+                  "years": "yyyy",
+                  "quarters": "yyyy Q",
+                  "months": "MM/yyyy",
+                  "weeks": "ww yyyy",
+                  "days": "dd/MM/yyyy",
+                  "minutes": "HH:mm"
+                }
+              },
+              "hierarchies": [
+                "calendar",
+                "calendar - weeks"
+              ],
+              "field": {
+                "id": "[Customers.FirstDepositDate (Calendar)]_days",
+                "index": 2
+              },
+              "panel": "rows",
+              "handlers": [
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "assignment_date",
+                "dim": "[Customers.assignment_date (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "level": "days",
+                "title": "Assignment Date"
+              },
+              "format": {
+                "mask": {
+                  "years": "yyyy",
+                  "quarters": "yyyy Q",
+                  "months": "MM/yyyy",
+                  "weeks": "ww yyyy",
+                  "days": "dd/MM/yyyy",
+                  "minutes": "HH:mm"
+                }
+              },
+              "hierarchies": [
+                "calendar",
+                "calendar - weeks"
+              ],
+              "field": {
+                "id": "[Customers.assignment_date (Calendar)]_days",
+                "index": 3
+              },
+              "panel": "rows",
+              "handlers": [
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "LastCallDate",
+                "dim": "[Customers.LastCallDate (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "level": "days",
+                "title": "Last Call Date"
+              },
+              "format": {
+                "mask": {
+                  "years": "yyyy",
+                  "quarters": "yyyy Q",
+                  "months": "MM/yyyy",
+                  "weeks": "ww yyyy",
+                  "days": "dd/MM/yyyy",
+                  "minutes": "HH:mm"
+                }
+              },
+              "hierarchies": [
+                "calendar",
+                "calendar - weeks"
+              ],
+              "field": {
+                "id": "[Customers.LastCallDate (Calendar)]_days",
+                "index": 4
+              },
+              "panel": "rows",
+              "handlers": [
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "DaysBetweenLastCallAndFTD",
+                "dim": "[Customers.DaysBetweenLastCallAndFTD]",
+                "datatype": "numeric",
+                "title": "Days From FTD to Last Call"
+              },
+              "field": {
+                "id": "[Customers.DaysBetweenLastCallAndFTD]",
+                "index": 5
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "DaysFromLastCall",
+                "dim": "[Customers.DaysFromLastCall]",
+                "datatype": "numeric",
+                "title": "Days From Last Call"
+              },
+              "field": {
+                "id": "[Customers.DaysFromLastCall]",
+                "index": 6
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "team_incharge",
+                "dim": "[Customers.team_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Team In Charge"
+              },
+              "field": {
+                "id": "[Customers.team_incharge]",
+                "index": 7
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "employee_incharge",
+                "dim": "[Customers.employee_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Agent In Charge"
+              },
+              "field": {
+                "id": "[Customers.employee_incharge]",
+                "index": 8
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "ret_status",
+                "dim": "[Customers.ret_status]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Retention Sale Status"
+              },
+              "field": {
+                "id": "[Customers.ret_status]",
+                "index": 9
+              },
+              "panel": "rows",
+              "handlers": []
+            }
+          ],
+          "filteredDimensions": [
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "FirstDepositDate",
+                "dim": "[Customers.FirstDepositDate (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "title": "Months in FirstDepositDate",
+                "level": "months",
+                "collapsed": true,
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                }
+              },
+              "disabled": false,
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "SiteName",
+                "dim": "[Customers.SiteName]",
+                "datatype": "text",
+                "merged": true,
+                "title": "SiteName",
+                "collapsed": true,
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                }
+              },
+              "disabled": false,
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "team_incharge",
+                "dim": "[Customers.team_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "team_incharge",
+                "collapsed": true,
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                }
+              },
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "employee_incharge",
+                "dim": "[Customers.employee_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "agent_incharge",
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                },
+                "collapsed": true
+              },
+              "disabled": false,
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "branch_incharge",
+                "dim": "[Customers.branch_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "branch_incharge",
+                "collapsed": true,
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                }
+              },
+              "disabled": false,
+              "locked": true,
+              "isCascading": false,
+              "panel": "scope"
+            }
+          ],
+          "filters": [
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "FirstDepositDate",
+                "dim": "[Customers.FirstDepositDate (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "title": "Months in FirstDepositDate",
+                "level": "months",
+                "collapsed": true,
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                },
+                "filter": {
+                  "last": {
+                    "count": 1,
+                    "offset": 1
+                  }
+                }
+              },
+              "disabled": false,
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "SiteName",
+                "dim": "[Customers.SiteName]",
+                "datatype": "text",
+                "merged": true,
+                "title": "SiteName",
+                "collapsed": true,
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                },
+                "filter": {
+                  "explicit": false,
+                  "multiSelection": true,
+                  "all": true
+                }
+              },
+              "disabled": false,
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "team_incharge",
+                "dim": "[Customers.team_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "team_incharge",
+                "collapsed": true,
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                },
+                "filter": {
+                  "explicit": false,
+                  "multiSelection": true,
+                  "all": true
+                }
+              },
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "employee_incharge",
+                "dim": "[Customers.employee_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "agent_incharge",
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                },
+                "collapsed": true,
+                "filter": {
+                  "explicit": false,
+                  "multiSelection": true,
+                  "all": true
+                }
+              },
+              "disabled": false,
+              "isCascading": false,
+              "panel": "scope"
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "branch_incharge",
+                "dim": "[Customers.branch_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "branch_incharge",
+                "collapsed": true,
+                "datasource": {
+                  "title": "ftd tracker list",
+                  "fullname": "LocalHost/ftd tracker list",
+                  "id": "aLOCALHOST_aFTDIAAaTRACKERIAAaLIST",
+                  "address": "LocalHost",
+                  "database": "aftdIAAatrackerIAAalist",
+                  "lastBuildTime": "2020-01-24T09:29:00"
+                },
+                "filter": {
+                  "explicit": true,
+                  "multiSelection": true,
+                  "members": [
+                    "Serbia"
+                  ]
+                }
+              },
+              "disabled": false,
+              "locked": true,
+              "isCascading": false,
+              "panel": "scope"
+            }
+          ],
+          "dateDimensions": [
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "FirstDepositDate",
+                "dim": "[Customers.FirstDepositDate (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "level": "days",
+                "title": "First Deposit Date"
+              },
+              "format": {
+                "mask": {
+                  "years": "yyyy",
+                  "quarters": "yyyy Q",
+                  "months": "MM/yyyy",
+                  "weeks": "ww yyyy",
+                  "days": "dd/MM/yyyy",
+                  "minutes": "HH:mm"
+                }
+              },
+              "hierarchies": [
+                "calendar",
+                "calendar - weeks"
+              ],
+              "field": {
+                "id": "[Customers.FirstDepositDate (Calendar)]_days",
+                "index": 2
+              },
+              "panel": "rows",
+              "handlers": [
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "assignment_date",
+                "dim": "[Customers.assignment_date (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "level": "days",
+                "title": "Assignment Date"
+              },
+              "format": {
+                "mask": {
+                  "years": "yyyy",
+                  "quarters": "yyyy Q",
+                  "months": "MM/yyyy",
+                  "weeks": "ww yyyy",
+                  "days": "dd/MM/yyyy",
+                  "minutes": "HH:mm"
+                }
+              },
+              "hierarchies": [
+                "calendar",
+                "calendar - weeks"
+              ],
+              "field": {
+                "id": "[Customers.assignment_date (Calendar)]_days",
+                "index": 3
+              },
+              "panel": "rows",
+              "handlers": [
+                {}
+              ]
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "LastCallDate",
+                "dim": "[Customers.LastCallDate (Calendar)]",
+                "datatype": "datetime",
+                "merged": true,
+                "level": "days",
+                "title": "Last Call Date"
+              },
+              "format": {
+                "mask": {
+                  "years": "yyyy",
+                  "quarters": "yyyy Q",
+                  "months": "MM/yyyy",
+                  "weeks": "ww yyyy",
+                  "days": "dd/MM/yyyy",
+                  "minutes": "HH:mm"
+                }
+              },
+              "hierarchies": [
+                "calendar",
+                "calendar - weeks"
+              ],
+              "field": {
+                "id": "[Customers.LastCallDate (Calendar)]_days",
+                "index": 4
+              },
+              "panel": "rows",
+              "handlers": [
+                {}
+              ]
+            }
+          ],
+          "numericDimensions": [
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "DaysBetweenLastCallAndFTD",
+                "dim": "[Customers.DaysBetweenLastCallAndFTD]",
+                "datatype": "numeric",
+                "title": "Days From FTD to Last Call"
+              },
+              "field": {
+                "id": "[Customers.DaysBetweenLastCallAndFTD]",
+                "index": 5
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "DaysFromLastCall",
+                "dim": "[Customers.DaysFromLastCall]",
+                "datatype": "numeric",
+                "title": "Days From Last Call"
+              },
+              "field": {
+                "id": "[Customers.DaysFromLastCall]",
+                "index": 6
+              },
+              "panel": "rows",
+              "handlers": []
+            }
+          ],
+          "textDimensions": [
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "SiteName",
+                "dim": "[Customers.SiteName]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Site Name"
+              },
+              "field": {
+                "id": "[Customers.SiteName]",
+                "index": 0
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "customer_id",
+                "dim": "[Customers.customer_id]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Customer Id"
+              },
+              "field": {
+                "id": "[Customers.customer_id]",
+                "index": 1
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "team_incharge",
+                "dim": "[Customers.team_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Team In Charge"
+              },
+              "field": {
+                "id": "[Customers.team_incharge]",
+                "index": 7
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "employee_incharge",
+                "dim": "[Customers.employee_incharge]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Agent In Charge"
+              },
+              "field": {
+                "id": "[Customers.employee_incharge]",
+                "index": 8
+              },
+              "panel": "rows",
+              "handlers": []
+            },
+            {
+              "jaql": {
+                "table": "Customers",
+                "column": "ret_status",
+                "dim": "[Customers.ret_status]",
+                "datatype": "text",
+                "merged": true,
+                "title": "Retention Sale Status"
+              },
+              "field": {
+                "id": "[Customers.ret_status]",
+                "index": 9
+              },
+              "panel": "rows",
+              "handlers": []
+            }
+          ],
+          "rawResult": {
+            "datasource": {
+              "fullname": "LocalHost/ftd tracker list",
+              "revisionId": "c37c4977-e0a0-454b-ad1c-57b65ff6ccde"
+            },
+            "table": "<table id=\"pivot_\" class=\"\" cellspacing=\"0\" cellpadding=\"0\" pager=\"{&quot;visibleRows&quot;:529,&quot;rowsPerPage&quot;:25,&quot;page&quot;:0,&quot;totalPages&quot;:22,&quot;totalRows&quot;:529,&quot;rowsInCurrentPage&quot;:25,&quot;enabled&quot;:true}\" border=\"0\">  <thead>    <tr id=\"pivot__ACCRowArea\">      <td class=\"p-dim-head\" fIdx=\"0\" rowspan=\"1\">Site Name</td>      <td class=\"p-dim-head\" fIdx=\"1\" rowspan=\"1\">Customer Id</td>      <td class=\"p-dim-head\" fIdx=\"2\" rowspan=\"1\">First Deposit Date</td>      <td class=\"p-dim-head\" fIdx=\"3\" rowspan=\"1\">Assignment Date</td>      <td class=\"p-dim-head\" fIdx=\"4\" rowspan=\"1\">Last Call Date</td>      <td class=\"p-dim-head\" fIdx=\"5\" rowspan=\"1\">Days From FTD to Last Call</td>      <td class=\"p-dim-head\" fIdx=\"6\" rowspan=\"1\">Days From Last Call</td>      <td class=\"p-dim-head\" fIdx=\"7\" rowspan=\"1\">Team In Charge</td>      <td class=\"p-dim-head\" fIdx=\"8\" rowspan=\"1\">Agent In Charge</td>      <td class=\"p-dim-head\" fIdx=\"9\" rowspan=\"1\">Retention Sale Status</td>      <td id=\"pivot__C0\" class=\"p-grand-total-head p-first-data-col\" fIdx=\"10\" isNull=\"true\">Calls 1st Day</td>      <td id=\"pivot__C1\" class=\"p-grand-total-head\" fIdx=\"11\" isNull=\"true\">Calls 2nd Day</td>      <td id=\"pivot__C2\" class=\"p-grand-total-head\" fIdx=\"12\" isNull=\"true\">Calls 3rd Day</td>      <td id=\"pivot__C3\" class=\"p-grand-total-head\" fIdx=\"13\" isNull=\"true\">Calls 4th Day</td>      <td id=\"pivot__C4\" class=\"p-grand-total-head\" fIdx=\"14\" isNull=\"true\">Calls 5th Day</td>      <td id=\"pivot__C5\" class=\"p-grand-total-head\" fIdx=\"15\" isNull=\"true\">Calls after 5th Day</td>    </tr>  </thead>  <tbody>    <tr>      <td id=\"pivot__R0\" class=\"p-dim-member\" fIdx=\"0\" rowspan=\"25\">StocksCM</td>      <td id=\"pivot__R1\" class=\"p-dim-member\" fIdx=\"1\">31823</td>      <td id=\"pivot__R2\" class=\"p-dim-member\" fIdx=\"2\">3/27/2020 12:00:00 AM</td>      <td id=\"pivot__R3\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R4\" class=\"p-dim-member\" fIdx=\"4\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R5\" class=\"p-dim-member\" fIdx=\"5\">3</td>      <td id=\"pivot__R6\" class=\"p-dim-member\" fIdx=\"6\">9</td>      <td id=\"pivot__R7\" class=\"p-dim-member\" fIdx=\"7\">Vatos Locos</td>      <td id=\"pivot__R8\" class=\"p-dim-member\" fIdx=\"8\">Dan Phillips</td>      <td id=\"pivot__R9\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">No answer - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">5</td>      <td class=\"colorable p-value\" fIdx=\"11\">0</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">0</td>    </tr>    <tr>      <td id=\"pivot__R10\" class=\"p-dim-member\" fIdx=\"1\">31866</td>      <td id=\"pivot__R11\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R12\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R13\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R14\" class=\"p-dim-member\" fIdx=\"5\">10</td>      <td id=\"pivot__R15\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R16\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R17\" class=\"p-dim-member\" fIdx=\"8\">Shaun Len</td>      <td id=\"pivot__R18\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">1</td>      <td class=\"colorable p-value\" fIdx=\"11\">5</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">1</td>      <td class=\"p-value\" fIdx=\"14\">1</td>      <td class=\"p-value\" fIdx=\"15\">3</td>    </tr>    <tr>      <td id=\"pivot__R19\" class=\"p-dim-member\" fIdx=\"1\">31871</td>      <td id=\"pivot__R20\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R21\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R22\" class=\"p-dim-member\" fIdx=\"4\">4/1/2020 12:00:00 AM</td>      <td id=\"pivot__R23\" class=\"p-dim-member\" fIdx=\"5\">3</td>      <td id=\"pivot__R24\" class=\"p-dim-member\" fIdx=\"6\">7</td>      <td id=\"pivot__R25\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R26\" class=\"p-dim-member\" fIdx=\"8\">Alex Smith</td>      <td id=\"pivot__R27\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">No answer - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">1</td>      <td class=\"colorable p-value\" fIdx=\"11\">0</td>      <td class=\"p-value\" fIdx=\"12\">1</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">0</td>    </tr>    <tr>      <td id=\"pivot__R28\" class=\"p-dim-member\" fIdx=\"1\">31874</td>      <td id=\"pivot__R29\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R30\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R31\" class=\"p-dim-member\" fIdx=\"4\">4/7/2020 12:00:00 AM</td>      <td id=\"pivot__R32\" class=\"p-dim-member\" fIdx=\"5\">9</td>      <td id=\"pivot__R33\" class=\"p-dim-member\" fIdx=\"6\">1</td>      <td id=\"pivot__R34\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R35\" class=\"p-dim-member\" fIdx=\"8\">Alex Smith</td>      <td id=\"pivot__R36\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">2</td>      <td class=\"colorable p-value\" fIdx=\"11\">0</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">1</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">2</td>    </tr>    <tr>      <td id=\"pivot__R37\" class=\"p-dim-member\" fIdx=\"1\">31877</td>      <td id=\"pivot__R38\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R39\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R40\" class=\"p-dim-member\" fIdx=\"4\">4/6/2020 12:00:00 AM</td>      <td id=\"pivot__R41\" class=\"p-dim-member\" fIdx=\"5\">8</td>      <td id=\"pivot__R42\" class=\"p-dim-member\" fIdx=\"6\">2</td>      <td id=\"pivot__R43\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R44\" class=\"p-dim-member\" fIdx=\"8\">Shaun Len</td>      <td id=\"pivot__R45\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">0</td>      <td class=\"colorable p-value\" fIdx=\"11\">2</td>      <td class=\"p-value\" fIdx=\"12\">6</td>      <td class=\"p-value\" fIdx=\"13\">6</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">2</td>    </tr>    <tr>      <td id=\"pivot__R46\" class=\"p-dim-member\" fIdx=\"1\">31889</td>      <td id=\"pivot__R47\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R48\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R49\" class=\"p-dim-member\" fIdx=\"4\">4/6/2020 12:00:00 AM</td>      <td id=\"pivot__R50\" class=\"p-dim-member\" fIdx=\"5\">8</td>      <td id=\"pivot__R51\" class=\"p-dim-member\" fIdx=\"6\">2</td>      <td id=\"pivot__R52\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R53\" class=\"p-dim-member\" fIdx=\"8\">Jonathan Richards</td>      <td id=\"pivot__R54\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Public</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">2</td>      <td class=\"colorable p-value\" fIdx=\"11\">1</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">1</td>    </tr>    <tr>      <td id=\"pivot__R55\" class=\"p-dim-member\" fIdx=\"1\">31897</td>      <td id=\"pivot__R56\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R57\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R58\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R59\" class=\"p-dim-member\" fIdx=\"5\">10</td>      <td id=\"pivot__R60\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R61\" class=\"p-dim-member\" fIdx=\"7\">Atlas</td>      <td id=\"pivot__R62\" class=\"p-dim-member\" fIdx=\"8\">Jack Green</td>      <td id=\"pivot__R63\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">10</td>      <td class=\"colorable p-value\" fIdx=\"11\">0</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">2</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">2</td>    </tr>    <tr>      <td id=\"pivot__R64\" class=\"p-dim-member\" fIdx=\"1\">31905</td>      <td id=\"pivot__R65\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R66\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R67\" class=\"p-dim-member\" fIdx=\"4\">4/3/2020 12:00:00 AM</td>      <td id=\"pivot__R68\" class=\"p-dim-member\" fIdx=\"5\">5</td>      <td id=\"pivot__R69\" class=\"p-dim-member\" fIdx=\"6\">5</td>      <td id=\"pivot__R70\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R71\" class=\"p-dim-member\" fIdx=\"8\">Alex Smith</td>      <td id=\"pivot__R72\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Public</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">1</td>      <td class=\"colorable p-value\" fIdx=\"11\">0</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">1</td>      <td class=\"p-value\" fIdx=\"15\">0</td>    </tr>    <tr>      <td id=\"pivot__R73\" class=\"p-dim-member\" fIdx=\"1\">31906</td>      <td id=\"pivot__R74\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R75\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R76\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R77\" class=\"p-dim-member\" fIdx=\"5\">10</td>      <td id=\"pivot__R78\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R79\" class=\"p-dim-member\" fIdx=\"7\">Atlas</td>      <td id=\"pivot__R80\" class=\"p-dim-member\" fIdx=\"8\">Peter Lynch</td>      <td id=\"pivot__R81\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">In the money - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">8</td>      <td class=\"colorable p-value\" fIdx=\"11\">2</td>      <td class=\"p-value\" fIdx=\"12\">2</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">1</td>      <td class=\"p-value\" fIdx=\"15\">3</td>    </tr>    <tr>      <td id=\"pivot__R82\" class=\"p-dim-member\" fIdx=\"1\">31911</td>      <td id=\"pivot__R83\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R84\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R85\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R86\" class=\"p-dim-member\" fIdx=\"5\">10</td>      <td id=\"pivot__R87\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R88\" class=\"p-dim-member\" fIdx=\"7\">Vatos Locos</td>      <td id=\"pivot__R89\" class=\"p-dim-member\" fIdx=\"8\">Steven Brooks</td>      <td id=\"pivot__R90\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">2</td>      <td class=\"colorable p-value\" fIdx=\"11\">4</td>      <td class=\"p-value\" fIdx=\"12\">2</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">3</td>    </tr>    <tr>      <td id=\"pivot__R91\" class=\"p-dim-member\" fIdx=\"1\">31918</td>      <td id=\"pivot__R92\" class=\"p-dim-member\" fIdx=\"2\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R93\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R94\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R95\" class=\"p-dim-member\" fIdx=\"5\">9</td>      <td id=\"pivot__R96\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R97\" class=\"p-dim-member\" fIdx=\"7\">Atlas</td>      <td id=\"pivot__R98\" class=\"p-dim-member\" fIdx=\"8\">Jack Green</td>      <td id=\"pivot__R99\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">3</td>      <td class=\"colorable p-value\" fIdx=\"11\">0</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">3</td>      <td class=\"p-value\" fIdx=\"14\">2</td>      <td class=\"p-value\" fIdx=\"15\">5</td>    </tr>    <tr>      <td id=\"pivot__R100\" class=\"p-dim-member\" fIdx=\"1\">31919</td>      <td id=\"pivot__R101\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R102\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R103\" class=\"p-dim-member\" fIdx=\"4\">4/7/2020 12:00:00 AM</td>      <td id=\"pivot__R104\" class=\"p-dim-member\" fIdx=\"5\">9</td>      <td id=\"pivot__R105\" class=\"p-dim-member\" fIdx=\"6\">1</td>      <td id=\"pivot__R106\" class=\"p-dim-member\" fIdx=\"7\">Atlas</td>      <td id=\"pivot__R107\" class=\"p-dim-member\" fIdx=\"8\">Goran Eriksson</td>      <td id=\"pivot__R108\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">3</td>      <td class=\"colorable p-value\" fIdx=\"11\">2</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">3</td>      <td class=\"p-value\" fIdx=\"15\">3</td>    </tr>    <tr>      <td id=\"pivot__R109\" class=\"p-dim-member\" fIdx=\"1\">31920</td>      <td id=\"pivot__R110\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R111\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R112\" class=\"p-dim-member\" fIdx=\"4\">4/2/2020 12:00:00 AM</td>      <td id=\"pivot__R113\" class=\"p-dim-member\" fIdx=\"5\">4</td>      <td id=\"pivot__R114\" class=\"p-dim-member\" fIdx=\"6\">6</td>      <td id=\"pivot__R115\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R116\" class=\"p-dim-member\" fIdx=\"8\">Jimmy Lee</td>      <td id=\"pivot__R117\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">6</td>      <td class=\"colorable p-value\" fIdx=\"11\">3</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">1</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">0</td>    </tr>    <tr>      <td id=\"pivot__R118\" class=\"p-dim-member\" fIdx=\"1\">31928</td>      <td id=\"pivot__R119\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R120\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R121\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R122\" class=\"p-dim-member\" fIdx=\"5\">10</td>      <td id=\"pivot__R123\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R124\" class=\"p-dim-member\" fIdx=\"7\">Atlas</td>      <td id=\"pivot__R125\" class=\"p-dim-member\" fIdx=\"8\">Peter Lynch</td>      <td id=\"pivot__R126\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">3</td>      <td class=\"colorable p-value\" fIdx=\"11\">5</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">4</td>      <td class=\"p-value\" fIdx=\"14\">5</td>      <td class=\"p-value\" fIdx=\"15\">10</td>    </tr>    <tr>      <td id=\"pivot__R127\" class=\"p-dim-member\" fIdx=\"1\">31932</td>      <td id=\"pivot__R128\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R129\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R130\" class=\"p-dim-member\" fIdx=\"4\">4/3/2020 12:00:00 AM</td>      <td id=\"pivot__R131\" class=\"p-dim-member\" fIdx=\"5\">5</td>      <td id=\"pivot__R132\" class=\"p-dim-member\" fIdx=\"6\">5</td>      <td id=\"pivot__R133\" class=\"p-dim-member\" fIdx=\"7\">Atlas</td>      <td id=\"pivot__R134\" class=\"p-dim-member\" fIdx=\"8\">Raphael Benjamin</td>      <td id=\"pivot__R135\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Not Interested - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">1</td>      <td class=\"colorable p-value\" fIdx=\"11\">3</td>      <td class=\"p-value\" fIdx=\"12\">3</td>      <td class=\"p-value\" fIdx=\"13\">1</td>      <td class=\"p-value\" fIdx=\"14\">3</td>      <td class=\"p-value\" fIdx=\"15\">0</td>    </tr>    <tr>      <td id=\"pivot__R136\" class=\"p-dim-member\" fIdx=\"1\">31939</td>      <td id=\"pivot__R137\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R138\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R139\" class=\"p-dim-member\" fIdx=\"4\">4/7/2020 12:00:00 AM</td>      <td id=\"pivot__R140\" class=\"p-dim-member\" fIdx=\"5\">9</td>      <td id=\"pivot__R141\" class=\"p-dim-member\" fIdx=\"6\">1</td>      <td id=\"pivot__R142\" class=\"p-dim-member\" fIdx=\"7\">Atlas</td>      <td id=\"pivot__R143\" class=\"p-dim-member\" fIdx=\"8\">Goran Eriksson</td>      <td id=\"pivot__R144\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">In the money - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">7</td>      <td class=\"colorable p-value\" fIdx=\"11\">2</td>      <td class=\"p-value\" fIdx=\"12\">5</td>      <td class=\"p-value\" fIdx=\"13\">5</td>      <td class=\"p-value\" fIdx=\"14\">11</td>      <td class=\"p-value\" fIdx=\"15\">9</td>    </tr>    <tr>      <td id=\"pivot__R145\" class=\"p-dim-member\" fIdx=\"1\">31942</td>      <td id=\"pivot__R146\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R147\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R148\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R149\" class=\"p-dim-member\" fIdx=\"5\">10</td>      <td id=\"pivot__R150\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R151\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R152\" class=\"p-dim-member\" fIdx=\"8\">Jonathan Richards</td>      <td id=\"pivot__R153\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">In the money - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">2</td>      <td class=\"colorable p-value\" fIdx=\"11\">3</td>      <td class=\"p-value\" fIdx=\"12\">1</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">1</td>      <td class=\"p-value\" fIdx=\"15\">1</td>    </tr>    <tr>      <td id=\"pivot__R154\" class=\"p-dim-member\" fIdx=\"1\">31949</td>      <td id=\"pivot__R155\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R156\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R157\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R158\" class=\"p-dim-member\" fIdx=\"5\">10</td>      <td id=\"pivot__R159\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R160\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R161\" class=\"p-dim-member\" fIdx=\"8\">Jonathan Richards</td>      <td id=\"pivot__R162\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">No answer - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">1</td>      <td class=\"colorable p-value\" fIdx=\"11\">0</td>      <td class=\"p-value\" fIdx=\"12\">1</td>      <td class=\"p-value\" fIdx=\"13\">1</td>      <td class=\"p-value\" fIdx=\"14\">3</td>      <td class=\"p-value\" fIdx=\"15\">4</td>    </tr>    <tr>      <td id=\"pivot__R163\" class=\"p-dim-member\" fIdx=\"1\">31954</td>      <td id=\"pivot__R164\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R165\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R166\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R167\" class=\"p-dim-member\" fIdx=\"5\">10</td>      <td id=\"pivot__R168\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R169\" class=\"p-dim-member\" fIdx=\"7\">Panzer</td>      <td id=\"pivot__R170\" class=\"p-dim-member\" fIdx=\"8\">Lara Monti</td>      <td id=\"pivot__R171\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">In the money - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">10</td>      <td class=\"colorable p-value\" fIdx=\"11\">0</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">2</td>      <td class=\"p-value\" fIdx=\"14\">1</td>      <td class=\"p-value\" fIdx=\"15\">6</td>    </tr>    <tr>      <td id=\"pivot__R172\" class=\"p-dim-member\" fIdx=\"1\">31963</td>      <td id=\"pivot__R173\" class=\"p-dim-member\" fIdx=\"2\">3/31/2020 12:00:00 AM</td>      <td id=\"pivot__R174\" class=\"p-dim-member\" fIdx=\"3\">3/31/2020 12:00:00 AM</td>      <td id=\"pivot__R175\" class=\"p-dim-member\" fIdx=\"4\">4/7/2020 12:00:00 AM</td>      <td id=\"pivot__R176\" class=\"p-dim-member\" fIdx=\"5\">7</td>      <td id=\"pivot__R177\" class=\"p-dim-member\" fIdx=\"6\">1</td>      <td id=\"pivot__R178\" class=\"p-dim-member\" fIdx=\"7\">Panzer</td>      <td id=\"pivot__R179\" class=\"p-dim-member\" fIdx=\"8\">Hans Lukas</td>      <td id=\"pivot__R180\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">No answer - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">1</td>      <td class=\"colorable p-value\" fIdx=\"11\">1</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">1</td>      <td class=\"p-value\" fIdx=\"15\">1</td>    </tr>    <tr>      <td id=\"pivot__R181\" class=\"p-dim-member\" fIdx=\"1\">31972</td>      <td id=\"pivot__R182\" class=\"p-dim-member\" fIdx=\"2\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R183\" class=\"p-dim-member\" fIdx=\"3\">3/31/2020 12:00:00 AM</td>      <td id=\"pivot__R184\" class=\"p-dim-member\" fIdx=\"4\">4/7/2020 12:00:00 AM</td>      <td id=\"pivot__R185\" class=\"p-dim-member\" fIdx=\"5\">8</td>      <td id=\"pivot__R186\" class=\"p-dim-member\" fIdx=\"6\">1</td>      <td id=\"pivot__R187\" class=\"p-dim-member\" fIdx=\"7\">Panzer</td>      <td id=\"pivot__R188\" class=\"p-dim-member\" fIdx=\"8\">Alina Schneider</td>      <td id=\"pivot__R189\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">0</td>      <td class=\"colorable p-value\" fIdx=\"11\">1</td>      <td class=\"p-value\" fIdx=\"12\">1</td>      <td class=\"p-value\" fIdx=\"13\">5</td>      <td class=\"p-value\" fIdx=\"14\">3</td>      <td class=\"p-value\" fIdx=\"15\">1</td>    </tr>    <tr>      <td id=\"pivot__R190\" class=\"p-dim-member\" fIdx=\"1\">31977</td>      <td id=\"pivot__R191\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R192\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R193\" class=\"p-dim-member\" fIdx=\"4\">4/3/2020 12:00:00 AM</td>      <td id=\"pivot__R194\" class=\"p-dim-member\" fIdx=\"5\">5</td>      <td id=\"pivot__R195\" class=\"p-dim-member\" fIdx=\"6\">5</td>      <td id=\"pivot__R196\" class=\"p-dim-member\" fIdx=\"7\">Panzer</td>      <td id=\"pivot__R197\" class=\"p-dim-member\" fIdx=\"8\">Angela Schmidt</td>      <td id=\"pivot__R198\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">2</td>      <td class=\"colorable p-value\" fIdx=\"11\">0</td>      <td class=\"p-value\" fIdx=\"12\">0</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">2</td>      <td class=\"p-value\" fIdx=\"15\">0</td>    </tr>    <tr>      <td id=\"pivot__R199\" class=\"p-dim-member\" fIdx=\"1\">31983</td>      <td id=\"pivot__R200\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R201\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R202\" class=\"p-dim-member\" fIdx=\"4\">4/2/2020 12:00:00 AM</td>      <td id=\"pivot__R203\" class=\"p-dim-member\" fIdx=\"5\">4</td>      <td id=\"pivot__R204\" class=\"p-dim-member\" fIdx=\"6\">6</td>      <td id=\"pivot__R205\" class=\"p-dim-member\" fIdx=\"7\">Panzer</td>      <td id=\"pivot__R206\" class=\"p-dim-member\" fIdx=\"8\">Angela Schmidt</td>      <td id=\"pivot__R207\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">No answer - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">1</td>      <td class=\"colorable p-value\" fIdx=\"11\">2</td>      <td class=\"p-value\" fIdx=\"12\">1</td>      <td class=\"p-value\" fIdx=\"13\">1</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">0</td>    </tr>    <tr>      <td id=\"pivot__R208\" class=\"p-dim-member\" fIdx=\"1\">31988</td>      <td id=\"pivot__R209\" class=\"p-dim-member\" fIdx=\"2\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R210\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R211\" class=\"p-dim-member\" fIdx=\"4\">4/8/2020 12:00:00 AM</td>      <td id=\"pivot__R212\" class=\"p-dim-member\" fIdx=\"5\">9</td>      <td id=\"pivot__R213\" class=\"p-dim-member\" fIdx=\"6\">0</td>      <td id=\"pivot__R214\" class=\"p-dim-member\" fIdx=\"7\">The Miners</td>      <td id=\"pivot__R215\" class=\"p-dim-member\" fIdx=\"8\">Jimmy Lee</td>      <td id=\"pivot__R216\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Call again - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">0</td>      <td class=\"colorable p-value\" fIdx=\"11\">1</td>      <td class=\"p-value\" fIdx=\"12\">5</td>      <td class=\"p-value\" fIdx=\"13\">6</td>      <td class=\"p-value\" fIdx=\"14\">6</td>      <td class=\"p-value\" fIdx=\"15\">63</td>    </tr>    <tr>      <td id=\"pivot__R217\" class=\"p-dim-member\" fIdx=\"1\">31990</td>      <td id=\"pivot__R218\" class=\"p-dim-member\" fIdx=\"2\">3/29/2020 12:00:00 AM</td>      <td id=\"pivot__R219\" class=\"p-dim-member\" fIdx=\"3\">3/30/2020 12:00:00 AM</td>      <td id=\"pivot__R220\" class=\"p-dim-member\" fIdx=\"4\">4/5/2020 12:00:00 AM</td>      <td id=\"pivot__R221\" class=\"p-dim-member\" fIdx=\"5\">7</td>      <td id=\"pivot__R222\" class=\"p-dim-member\" fIdx=\"6\">3</td>      <td id=\"pivot__R223\" class=\"p-dim-member\" fIdx=\"7\">Panzer</td>      <td id=\"pivot__R224\" class=\"p-dim-member\" fIdx=\"8\">Panzer_Reassign Pool</td>      <td id=\"pivot__R225\" class=\"p-dim-member p-last-row-col\" fIdx=\"9\">Not Interested - RET</td>      <td class=\"colorable p-value p-first-data-col\" fIdx=\"10\">0</td>      <td class=\"colorable p-value\" fIdx=\"11\">2</td>      <td class=\"p-value\" fIdx=\"12\">5</td>      <td class=\"p-value\" fIdx=\"13\">0</td>      <td class=\"p-value\" fIdx=\"14\">0</td>      <td class=\"p-value\" fIdx=\"15\">4</td>    </tr>  </tbody></table>",
+            "fields": [
+              {
+                "id": "[Customers.SiteName]",
+                "index": 0
+              },
+              {
+                "id": "[Customers.customer_id]",
+                "index": 1
+              },
+              {
+                "id": "[Customers.FirstDepositDate (Calendar)]_days",
+                "index": 2
+              },
+              {
+                "id": "[Customers.assignment_date (Calendar)]_days",
+                "index": 3
+              },
+              {
+                "id": "[Customers.LastCallDate (Calendar)]_days",
+                "index": 4
+              },
+              {
+                "id": "[Customers.DaysBetweenLastCallAndFTD]",
+                "index": 5
+              },
+              {
+                "id": "[Customers.DaysFromLastCall]",
+                "index": 6
+              },
+              {
+                "id": "[Customers.team_incharge]",
+                "index": 7
+              },
+              {
+                "id": "[Customers.employee_incharge]",
+                "index": 8
+              },
+              {
+                "id": "[Customers.ret_status]",
+                "index": 9
+              },
+              {
+                "id": "[Customers.number_of_calls_1st_day]_sum",
+                "index": 10
+              },
+              {
+                "id": "[Customers.number_of_calls_2nd_day]_sum",
+                "index": 11
+              },
+              {
+                "id": "[Customers.number_of_calls_3rd_day]_sum",
+                "index": 12
+              },
+              {
+                "id": "[Customers.number_of_calls_4th_day]_sum",
+                "index": 13
+              },
+              {
+                "id": "[Customers.number_of_calls_5th_day]_sum",
+                "index": 14
+              },
+              {
+                "id": "[Customers.number_of_calls_5plus_day]_sum",
+                "index": 15
+              }
+            ],
+            "formattingFormulas": {},
+            "isTable": false,
+            "isEmpty": false
+          }
+        },
+        "autoUpdateOnEveryChange": true,
+        "selectorLocked": false,
+        "drillTarget": {
+          "oid": "5e2ab1c78f6cc928c8e025a1",
+          "caption": "_drill_FTDTrackerComments"
+        }
+      },
+      "dashboardid": "609e36cfa82cc3002d025016",
+      "drilledDashboardDisplay": {},
+      "displayMenu": false,
+      "custom": {
+        "barcolumnchart": {
+          "customMenuEnabled": false,
+          "updateOnEveryChange": true,
+          "addTotalOption": "No",
+          "sortCategoriesOption": "Default",
+          "sortBreakByOption": "Default",
+          "currModalOpened": "None",
+          "totalSeriesName": "Total",
+          "type": "pivot2",
+          "isTypeValid": false
+        }
+      },
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "Retention Status Distribution",
+      "subtype": "pie/classic",
+      "desc": null,
+      "source": "609e36cfa82cc3002d02501c",
+      "datasource": {
+        "title": "ftd tracker list",
+        "fullname": "LocalHost/ftd tracker list",
+        "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+        "address": "LocalHost",
+        "database": "aftdIAAatrackerIAAalist"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "ret_status",
+                  "dim": "[Customers.ret_status]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Retention Status"
+                },
+                "field": {
+                  "id": "[Customers.ret_status]",
+                  "index": 0
+                },
+                "format": {
+                  "members": {
+                    "Account closed": {
+                      "color": "#00cee6",
+                      "title": "Account closed",
+                      "sortData": "Account closed",
+                      "inResultset": true
+                    },
+                    "Call again - RET": {
+                      "color": "#9b9bd7",
+                      "title": "Call again - RET",
+                      "sortData": "Call again - RET",
+                      "inResultset": true
+                    },
+                    "Callback": {
+                      "color": "#6EDA55",
+                      "title": "Callback",
+                      "sortData": "Callback",
+                      "inResultset": true
+                    },
+                    "Callback long term": {
+                      "color": "#fc7570",
+                      "title": "Callback long term",
+                      "sortData": "Callback long term",
+                      "inResultset": true
+                    },
+                    "First non-interested": {
+                      "color": "#fbb755",
+                      "title": "First non-interested",
+                      "sortData": "First non-interested",
+                      "inResultset": true
+                    },
+                    "In the money - RET": {
+                      "color": "#218A8C",
+                      "title": "In the money - RET",
+                      "sortData": "In the money - RET",
+                      "inResultset": true
+                    },
+                    "New-RET": {
+                      "color": "#06e5ff",
+                      "title": "New-RET",
+                      "sortData": "New-RET",
+                      "inResultset": true
+                    },
+                    "No answer": {
+                      "color": "#b2b2f7",
+                      "title": "No answer",
+                      "sortData": "No answer",
+                      "inResultset": true
+                    },
+                    "No answer - RET": {
+                      "color": "#7efb62",
+                      "title": "No answer - RET",
+                      "sortData": "No answer - RET",
+                      "inResultset": true
+                    },
+                    "No call - RET": {
+                      "color": "#ff8a86",
+                      "title": "No call - RET",
+                      "sortData": "No call - RET",
+                      "inResultset": true
+                    },
+                    "Not Interested - RET": {
+                      "color": "#ffc26a",
+                      "title": "Not Interested - RET",
+                      "sortData": "Not Interested - RET",
+                      "inResultset": true
+                    },
+                    "Public": {
+                      "color": "#269fa1",
+                      "title": "Public",
+                      "sortData": "Public",
+                      "inResultset": true
+                    },
+                    "Reassign - RET": {
+                      "color": "#00cee6",
+                      "title": "Reassign - RET",
+                      "sortData": "Reassign - RET",
+                      "inResultset": true
+                    },
+                    "Self-activation": {
+                      "color": "#9b9bd7",
+                      "title": "Self-activation",
+                      "sortData": "Self-activation",
+                      "inResultset": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "customer_key",
+                  "dim": "[Customers.customer_key]",
+                  "datatype": "text",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of customers"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  }
+                },
+                "field": {
+                  "id": "[Customers.customer_key]_count",
+                  "index": 1
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "oid": "609e36cfa82cc3002d025018",
+      "type": "chart/pie",
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "left"
+        },
+        "labels": {
+          "enabled": true,
+          "categories": true,
+          "value": true,
+          "percent": true,
+          "decimals": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 100000
+        },
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "retention_status",
+              "title": "Retention Status",
+              "singular": "Retention Status",
+              "plural": "Retention Status"
+            }
+          ]
+        }
+      },
+      "instanceid": "93DC7-BF70-F3",
+      "queryStartTime": "2020-01-28T08:52:01",
+      "drawing": true,
+      "disableSelctor": false,
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "chart": {
+        "0": {},
+        "context": {},
+        "length": 1
+      },
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true
+      },
+      "dashboardid": "609e36cfa82cc3002d025016",
+      "tenantId": "6005951eebdb06001a08e954"
+    },
+    {
+      "title": "Team in Charge Distribution",
+      "subtype": "pie/classic",
+      "desc": null,
+      "source": "609e36cfa82cc3002d02501d",
+      "datasource": {
+        "title": "ftd tracker list",
+        "fullname": "LocalHost/ftd tracker list",
+        "id": "localhost_aaFTDIAAaTRACKERIAAaLIST",
+        "address": "LocalHost",
+        "database": "aftdIAAatrackerIAAalist"
+      },
+      "selection": null,
+      "metadata": {
+        "ignore": {
+          "dimensions": [],
+          "all": false,
+          "ids": []
+        },
+        "panels": [
+          {
+            "name": "categories",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "team_incharge",
+                  "dim": "[Customers.team_incharge]",
+                  "datatype": "text",
+                  "merged": true,
+                  "title": "Team in Charge"
+                },
+                "format": {
+                  "members": {
+                    "Atlas": {
+                      "color": "#00cee6",
+                      "title": "Atlas",
+                      "sortData": "Atlas",
+                      "inResultset": true
+                    },
+                    "Panzer": {
+                      "color": "#9b9bd7",
+                      "title": "Panzer",
+                      "sortData": "Panzer",
+                      "inResultset": true
+                    },
+                    "The Miners": {
+                      "color": "#6EDA55",
+                      "title": "The Miners",
+                      "sortData": "The Miners",
+                      "inResultset": true
+                    },
+                    "Withdrawal Team": {
+                      "color": "#fc7570",
+                      "title": "Withdrawal Team",
+                      "sortData": "Withdrawal Team",
+                      "inResultset": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "values",
+            "items": [
+              {
+                "jaql": {
+                  "table": "Customers",
+                  "column": "customer_key",
+                  "dim": "[Customers.customer_key]",
+                  "datatype": "text",
+                  "merged": true,
+                  "agg": "count",
+                  "title": "# of customers"
+                },
+                "format": {
+                  "mask": {
+                    "type": "number",
+                    "abbreviations": {
+                      "t": true,
+                      "b": true,
+                      "m": true,
+                      "k": true
+                    },
+                    "separated": true,
+                    "decimals": "auto",
+                    "isdefault": true
+                  },
+                  "color_bkp": {
+                    "color": "#00cee6",
+                    "type": "color"
+                  }
+                },
+                "field": {
+                  "id": "[Customers.customer_key]_count",
+                  "index": 1
+                }
+              }
+            ]
+          },
+          {
+            "name": "filters",
+            "items": []
+          }
+        ]
+      },
+      "oid": "609e36cfa82cc3002d025019",
+      "type": "chart/pie",
+      "style": {
+        "legend": {
+          "enabled": false,
+          "position": "left"
+        },
+        "labels": {
+          "enabled": true,
+          "categories": true,
+          "value": true,
+          "percent": true,
+          "decimals": false
+        },
+        "dataLimits": {
+          "seriesCapacity": 100000
+        },
+        "pageSize": 25,
+        "automaticHeight": true,
+        "colors": {
+          "rows": true,
+          "columns": false,
+          "headers": false,
+          "members": false,
+          "totals": false
+        },
+        "narration": {
+          "enabled": false,
+          "display": "above",
+          "format": "bullets",
+          "verbosity": "medium",
+          "up_sentiment": "good",
+          "aggregation": "sum",
+          "labels": [
+            {
+              "id": "team_incharge",
+              "title": "team_incharge",
+              "singular": "team_incharge",
+              "plural": "team_incharge"
+            }
+          ]
+        }
+      },
+      "instanceid": "93DC7-BF70-F3",
+      "queryStartTime": "2020-01-28T08:53:59",
+      "disableSelctor": false,
+      "widgetTimingLoged": false,
+      "continuousDates": false,
+      "nullAsZero": false,
+      "forcedRedraw": false,
+      "drillToDashboardConfig": {
+        "drilledDashboardPrefix": "_drill",
+        "drilledDashboardsFolderPrefix": "",
+        "displayFilterPane": true,
+        "displayDashboardsPane": true,
+        "displayToolbarRow": true,
+        "displayHeaderRow": true,
+        "volatile": false,
+        "hideDrilledDashboards": true,
+        "hideSharedDashboardsForNonOwner": true,
+        "drillToDashboardMenuCaption": "Jump to dashboard",
+        "drillToDashboardRightMenuCaption": "Jump to ",
+        "drillToDashboardNavigateType": 1,
+        "drillToDashboardNavigateTypePivot": 2,
+        "drillToDashboardNavigateTypeCharts": 1,
+        "drillToDashboardNavigateTypeOthers": 3,
+        "excludeFilterDims": [],
+        "includeFilterDims": [],
+        "drilledDashboardDisplayType": 2,
+        "dashboardIds": [],
+        "modalWindowResize": false,
+        "showFolderNameOnMenuSelection": false,
+        "resetDashFiltersAfterJTD": false,
+        "sameCubeRestriction": true,
+        "showJTDIcon": true,
+        "sendPieChartMeasureFiltersOnClick": true,
+        "forceZeroInsteadNull": false,
+        "mergeTargetDashboardFilters": false,
+        "drillToDashboardByName": false
+      },
+      "chart": {
+        "0": {},
+        "context": {},
+        "length": 1
+      },
+      "realTimeRefreshing": false,
+      "options": {
+        "dashboardFiltersMode": "select",
+        "selector": true,
+        "triggersDomready": true,
+        "autoUpdateOnEveryChange": true,
+        "drillToAnywhere": true
+      },
+      "dashboardid": "609e36cfa82cc3002d025016",
+      "drawing": true,
+      "tenantId": "6005951eebdb06001a08e954"
+    }
+  ],
+  "hierarchies": []
+}
